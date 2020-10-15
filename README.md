@@ -1,2 +1,2 @@
-# SwiftUI-Projects
-SwiftUI Projects, Published by Packt
+# SwiftUI Projects
+SwiftUI Projects, published by Packt

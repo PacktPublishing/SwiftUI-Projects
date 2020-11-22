@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='raw' executeOnSourceChanges='true'>
+    <pages>
+        <page name='01. Text Example 01'/>
+        <page name='02. Text Example 02'/>
+        <page name='03. TextField Example 01'/>
+        <page name='04. TextField Example 02'/>
+        <page name='05. SecureField Example'/>
+        <page name='06. Image Example 02'/>
+        <page name='07. Button Example 01'/>
+        <page name='08. Button Example 02'/>
+        <page name='09. Toggle Example'/>
+        <page name='10. Stepper Example'/>
+    </pages>
+</playground>

@@ -1,0 +1,740 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46E504C4252E76F400666540 /* NBAWatchDraft WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 46E504C3252E76F400666540 /* NBAWatchDraft WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		46E504C9252E76F400666540 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46E504C8252E76F400666540 /* Assets.xcassets */; };
+		46E504D0252E76F400666540 /* NBAWatchDraft WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 46E504CF252E76F400666540 /* NBAWatchDraft WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		46E5051D252E773100666540 /* DraftService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E504F1252E773000666540 /* DraftService.swift */; };
+		46E5051E252E773100666540 /* DraftRoundItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E504F2252E773000666540 /* DraftRoundItem.swift */; };
+		46E5051F252E773100666540 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E504F3252E773000666540 /* Data.swift */; };
+		46E50520252E773100666540 /* Pick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E504F4252E773000666540 /* Pick.swift */; };
+		46E50521252E773100666540 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E504F5252E773000666540 /* Team.swift */; };
+		46E50522252E773100666540 /* MockDraftPreviewService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E504F6252E773000666540 /* MockDraftPreviewService.swift */; };
+		46E50523252E773100666540 /* draft.plist in Resources */ = {isa = PBXBuildFile; fileRef = 46E504F7252E773000666540 /* draft.plist */; };
+		46E50524252E773100666540 /* Prospect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E504F8252E773000666540 /* Prospect.swift */; };
+		46E50525252E773100666540 /* DraftRound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E504F9252E773000666540 /* DraftRound.swift */; };
+		46E50526252E773100666540 /* Stat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E504FA252E773000666540 /* Stat.swift */; };
+		46E50527252E773100666540 /* DraftList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E504FC252E773000666540 /* DraftList.swift */; };
+		46E50528252E773100666540 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E504FD252E773000666540 /* ContentView.swift */; };
+		46E50529252E773100666540 /* DraftPlayerDetailStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E504FF252E773000666540 /* DraftPlayerDetailStatsView.swift */; };
+		46E5052A252E773100666540 /* DraftRoundCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E50500252E773000666540 /* DraftRoundCardView.swift */; };
+		46E5052B252E773100666540 /* DraftRoundItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E50501252E773000666540 /* DraftRoundItemView.swift */; };
+		46E5052C252E773100666540 /* DraftCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E50502252E773000666540 /* DraftCardView.swift */; };
+		46E5052D252E773100666540 /* DraftPlayerDetailInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E50503252E773000666540 /* DraftPlayerDetailInfoView.swift */; };
+		46E5052E252E773100666540 /* DraftPlayerDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E50504252E773000666540 /* DraftPlayerDetailHeaderView.swift */; };
+		46E5052F252E773100666540 /* DraftPlayerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E50505252E773000666540 /* DraftPlayerDetailView.swift */; };
+		46E50530252E773100666540 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E50507252E773000666540 /* ComplicationController.swift */; };
+		46E50531252E773100666540 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46E50508252E773000666540 /* Assets.xcassets */; };
+		46E50532252E773100666540 /* NBAWatchDraftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E50509252E773000666540 /* NBAWatchDraftApp.swift */; };
+		46E50533252E773100666540 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46E5050B252E773000666540 /* Preview Assets.xcassets */; };
+		46E50534252E773100666540 /* CardStackModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E5050E252E773000666540 /* CardStackModifier.swift */; };
+		46E50535252E773100666540 /* LengthFormatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E5050F252E773000666540 /* LengthFormatters.swift */; };
+		46E50536252E773100666540 /* ScaledFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E50511252E773000666540 /* ScaledFont.swift */; };
+		46E50537252E773100666540 /* CustomTextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E50512252E773000666540 /* CustomTextStyle.swift */; };
+		46E50538252E773100666540 /* AvenirNextCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46E50514252E773000666540 /* AvenirNextCondensed-Regular.ttf */; };
+		46E50539252E773100666540 /* AvenirNextCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46E50515252E773000666540 /* AvenirNextCondensed-Bold.ttf */; };
+		46E5053A252E773100666540 /* AvenirNextCondensed-DemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46E50516252E773000666540 /* AvenirNextCondensed-DemiBold.ttf */; };
+		46E5053B252E773100666540 /* AvenirNextCondensed-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46E50517252E773000666540 /* AvenirNextCondensed-Medium.ttf */; };
+		46E5053C252E773100666540 /* AvenirNextCondensed-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46E50518252E773000666540 /* AvenirNextCondensed-Heavy.ttf */; };
+		46E5053D252E773100666540 /* AvenirNextCondensed-UltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46E50519252E773000666540 /* AvenirNextCondensed-UltraLight.ttf */; };
+		46E5053E252E773100666540 /* Palette+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E5051A252E773000666540 /* Palette+Color.swift */; };
+		46E5053F252E773100666540 /* Measurement+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E5051C252E773000666540 /* Measurement+Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46E504C5252E76F400666540 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46E504B9252E76F400666540 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46E504C2252E76F400666540;
+			remoteInfo = "NBAWatchDraft WatchKit App";
+		};
+		46E504D1252E76F400666540 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46E504B9252E76F400666540 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46E504CE252E76F400666540;
+			remoteInfo = "NBAWatchDraft WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		46E504E5252E76F500666540 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				46E504D0252E76F400666540 /* NBAWatchDraft WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46E504E9252E76F500666540 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				46E504C4252E76F400666540 /* NBAWatchDraft WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		46E504BF252E76F400666540 /* NBAWatchDraft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NBAWatchDraft.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46E504C3252E76F400666540 /* NBAWatchDraft WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NBAWatchDraft WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46E504C8252E76F400666540 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46E504CA252E76F400666540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46E504CF252E76F400666540 /* NBAWatchDraft WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "NBAWatchDraft WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46E504DF252E76F500666540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46E504F1252E773000666540 /* DraftService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraftService.swift; sourceTree = "<group>"; };
+		46E504F2252E773000666540 /* DraftRoundItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraftRoundItem.swift; sourceTree = "<group>"; };
+		46E504F3252E773000666540 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		46E504F4252E773000666540 /* Pick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pick.swift; sourceTree = "<group>"; };
+		46E504F5252E773000666540 /* Team.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		46E504F6252E773000666540 /* MockDraftPreviewService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockDraftPreviewService.swift; sourceTree = "<group>"; };
+		46E504F7252E773000666540 /* draft.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = draft.plist; sourceTree = "<group>"; };
+		46E504F8252E773000666540 /* Prospect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Prospect.swift; sourceTree = "<group>"; };
+		46E504F9252E773000666540 /* DraftRound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraftRound.swift; sourceTree = "<group>"; };
+		46E504FA252E773000666540 /* Stat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stat.swift; sourceTree = "<group>"; };
+		46E504FC252E773000666540 /* DraftList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraftList.swift; sourceTree = "<group>"; };
+		46E504FD252E773000666540 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		46E504FF252E773000666540 /* DraftPlayerDetailStatsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraftPlayerDetailStatsView.swift; sourceTree = "<group>"; };
+		46E50500252E773000666540 /* DraftRoundCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraftRoundCardView.swift; sourceTree = "<group>"; };
+		46E50501252E773000666540 /* DraftRoundItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraftRoundItemView.swift; sourceTree = "<group>"; };
+		46E50502252E773000666540 /* DraftCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraftCardView.swift; sourceTree = "<group>"; };
+		46E50503252E773000666540 /* DraftPlayerDetailInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraftPlayerDetailInfoView.swift; sourceTree = "<group>"; };
+		46E50504252E773000666540 /* DraftPlayerDetailHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraftPlayerDetailHeaderView.swift; sourceTree = "<group>"; };
+		46E50505252E773000666540 /* DraftPlayerDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraftPlayerDetailView.swift; sourceTree = "<group>"; };
+		46E50507252E773000666540 /* ComplicationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		46E50508252E773000666540 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46E50509252E773000666540 /* NBAWatchDraftApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NBAWatchDraftApp.swift; sourceTree = "<group>"; };
+		46E5050B252E773000666540 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		46E5050E252E773000666540 /* CardStackModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardStackModifier.swift; sourceTree = "<group>"; };
+		46E5050F252E773000666540 /* LengthFormatters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LengthFormatters.swift; sourceTree = "<group>"; };
+		46E50511252E773000666540 /* ScaledFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaledFont.swift; sourceTree = "<group>"; };
+		46E50512252E773000666540 /* CustomTextStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextStyle.swift; sourceTree = "<group>"; };
+		46E50514252E773000666540 /* AvenirNextCondensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirNextCondensed-Regular.ttf"; sourceTree = "<group>"; };
+		46E50515252E773000666540 /* AvenirNextCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirNextCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		46E50516252E773000666540 /* AvenirNextCondensed-DemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirNextCondensed-DemiBold.ttf"; sourceTree = "<group>"; };
+		46E50517252E773000666540 /* AvenirNextCondensed-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirNextCondensed-Medium.ttf"; sourceTree = "<group>"; };
+		46E50518252E773000666540 /* AvenirNextCondensed-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirNextCondensed-Heavy.ttf"; sourceTree = "<group>"; };
+		46E50519252E773000666540 /* AvenirNextCondensed-UltraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirNextCondensed-UltraLight.ttf"; sourceTree = "<group>"; };
+		46E5051A252E773000666540 /* Palette+Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Palette+Color.swift"; sourceTree = "<group>"; };
+		46E5051C252E773000666540 /* Measurement+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Measurement+Extensions.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46E504CC252E76F400666540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46E504B8252E76F400666540 = {
+			isa = PBXGroup;
+			children = (
+				46E504C7252E76F400666540 /* NBAWatchDraft WatchKit App */,
+				46E504D3252E76F400666540 /* NBAWatchDraft WatchKit Extension */,
+				46E504C0252E76F400666540 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46E504C0252E76F400666540 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46E504BF252E76F400666540 /* NBAWatchDraft.app */,
+				46E504C3252E76F400666540 /* NBAWatchDraft WatchKit App.app */,
+				46E504CF252E76F400666540 /* NBAWatchDraft WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46E504C7252E76F400666540 /* NBAWatchDraft WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				46E504C8252E76F400666540 /* Assets.xcassets */,
+				46E504CA252E76F400666540 /* Info.plist */,
+			);
+			path = "NBAWatchDraft WatchKit App";
+			sourceTree = "<group>";
+		};
+		46E504D3252E76F400666540 /* NBAWatchDraft WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				46E50506252E773000666540 /* Application */,
+				46E504F0252E773000666540 /* Models */,
+				46E5050A252E773000666540 /* Preview Content */,
+				46E5050C252E773000666540 /* Utilities */,
+				46E504FB252E773000666540 /* Views */,
+				46E504DF252E76F500666540 /* Info.plist */,
+			);
+			path = "NBAWatchDraft WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		46E504F0252E773000666540 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				46E504F1252E773000666540 /* DraftService.swift */,
+				46E504F2252E773000666540 /* DraftRoundItem.swift */,
+				46E504F3252E773000666540 /* Data.swift */,
+				46E504F4252E773000666540 /* Pick.swift */,
+				46E504F5252E773000666540 /* Team.swift */,
+				46E504F6252E773000666540 /* MockDraftPreviewService.swift */,
+				46E504F7252E773000666540 /* draft.plist */,
+				46E504F8252E773000666540 /* Prospect.swift */,
+				46E504F9252E773000666540 /* DraftRound.swift */,
+				46E504FA252E773000666540 /* Stat.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		46E504FB252E773000666540 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				46E504FE252E773000666540 /* Supporting Views */,
+				46E504FC252E773000666540 /* DraftList.swift */,
+				46E504FD252E773000666540 /* ContentView.swift */,
+				46E50505252E773000666540 /* DraftPlayerDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		46E504FE252E773000666540 /* Supporting Views */ = {
+			isa = PBXGroup;
+			children = (
+				46E504FF252E773000666540 /* DraftPlayerDetailStatsView.swift */,
+				46E50500252E773000666540 /* DraftRoundCardView.swift */,
+				46E50501252E773000666540 /* DraftRoundItemView.swift */,
+				46E50502252E773000666540 /* DraftCardView.swift */,
+				46E50503252E773000666540 /* DraftPlayerDetailInfoView.swift */,
+				46E50504252E773000666540 /* DraftPlayerDetailHeaderView.swift */,
+			);
+			path = "Supporting Views";
+			sourceTree = "<group>";
+		};
+		46E50506252E773000666540 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				46E50507252E773000666540 /* ComplicationController.swift */,
+				46E50508252E773000666540 /* Assets.xcassets */,
+				46E50509252E773000666540 /* NBAWatchDraftApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		46E5050A252E773000666540 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				46E5050B252E773000666540 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		46E5050C252E773000666540 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				46E5050F252E773000666540 /* LengthFormatters.swift */,
+				46E5050D252E773000666540 /* Modifiers */,
+				46E50510252E773000666540 /* _theming */,
+				46E5051B252E773000666540 /* Extensions */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		46E5050D252E773000666540 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				46E5050E252E773000666540 /* CardStackModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		46E50510252E773000666540 /* _theming */ = {
+			isa = PBXGroup;
+			children = (
+				46E50511252E773000666540 /* ScaledFont.swift */,
+				46E50512252E773000666540 /* CustomTextStyle.swift */,
+				46E50513252E773000666540 /* Font */,
+				46E5051A252E773000666540 /* Palette+Color.swift */,
+			);
+			path = _theming;
+			sourceTree = "<group>";
+		};
+		46E50513252E773000666540 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				46E50514252E773000666540 /* AvenirNextCondensed-Regular.ttf */,
+				46E50515252E773000666540 /* AvenirNextCondensed-Bold.ttf */,
+				46E50516252E773000666540 /* AvenirNextCondensed-DemiBold.ttf */,
+				46E50517252E773000666540 /* AvenirNextCondensed-Medium.ttf */,
+				46E50518252E773000666540 /* AvenirNextCondensed-Heavy.ttf */,
+				46E50519252E773000666540 /* AvenirNextCondensed-UltraLight.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		46E5051B252E773000666540 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				46E5051C252E773000666540 /* Measurement+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46E504BE252E76F400666540 /* NBAWatchDraft */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46E504EA252E76F500666540 /* Build configuration list for PBXNativeTarget "NBAWatchDraft" */;
+			buildPhases = (
+				46E504BD252E76F400666540 /* Resources */,
+				46E504E9252E76F500666540 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46E504C6252E76F400666540 /* PBXTargetDependency */,
+			);
+			name = NBAWatchDraft;
+			productName = NBAWatchDraft;
+			productReference = 46E504BF252E76F400666540 /* NBAWatchDraft.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		46E504C2252E76F400666540 /* NBAWatchDraft WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46E504E6252E76F500666540 /* Build configuration list for PBXNativeTarget "NBAWatchDraft WatchKit App" */;
+			buildPhases = (
+				46E504C1252E76F400666540 /* Resources */,
+				46E504E5252E76F500666540 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46E504D2252E76F400666540 /* PBXTargetDependency */,
+			);
+			name = "NBAWatchDraft WatchKit App";
+			productName = "NBAWatchDraft WatchKit App";
+			productReference = 46E504C3252E76F400666540 /* NBAWatchDraft WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		46E504CE252E76F400666540 /* NBAWatchDraft WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46E504E2252E76F500666540 /* Build configuration list for PBXNativeTarget "NBAWatchDraft WatchKit Extension" */;
+			buildPhases = (
+				46E504CB252E76F400666540 /* Sources */,
+				46E504CC252E76F400666540 /* Frameworks */,
+				46E504CD252E76F400666540 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NBAWatchDraft WatchKit Extension";
+			productName = "NBAWatchDraft WatchKit Extension";
+			productReference = 46E504CF252E76F400666540 /* NBAWatchDraft WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46E504B9252E76F400666540 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					46E504BE252E76F400666540 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					46E504C2252E76F400666540 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					46E504CE252E76F400666540 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 46E504BC252E76F400666540 /* Build configuration list for PBXProject "NBAWatchDraft" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46E504B8252E76F400666540;
+			productRefGroup = 46E504C0252E76F400666540 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46E504BE252E76F400666540 /* NBAWatchDraft */,
+				46E504C2252E76F400666540 /* NBAWatchDraft WatchKit App */,
+				46E504CE252E76F400666540 /* NBAWatchDraft WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46E504BD252E76F400666540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46E504C1252E76F400666540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46E504C9252E76F400666540 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46E504CD252E76F400666540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46E5053D252E773100666540 /* AvenirNextCondensed-UltraLight.ttf in Resources */,
+				46E50533252E773100666540 /* Preview Assets.xcassets in Resources */,
+				46E50538252E773100666540 /* AvenirNextCondensed-Regular.ttf in Resources */,
+				46E50523252E773100666540 /* draft.plist in Resources */,
+				46E5053C252E773100666540 /* AvenirNextCondensed-Heavy.ttf in Resources */,
+				46E5053A252E773100666540 /* AvenirNextCondensed-DemiBold.ttf in Resources */,
+				46E50531252E773100666540 /* Assets.xcassets in Resources */,
+				46E50539252E773100666540 /* AvenirNextCondensed-Bold.ttf in Resources */,
+				46E5053B252E773100666540 /* AvenirNextCondensed-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46E504CB252E76F400666540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46E50526252E773100666540 /* Stat.swift in Sources */,
+				46E50528252E773100666540 /* ContentView.swift in Sources */,
+				46E5052D252E773100666540 /* DraftPlayerDetailInfoView.swift in Sources */,
+				46E50534252E773100666540 /* CardStackModifier.swift in Sources */,
+				46E5052C252E773100666540 /* DraftCardView.swift in Sources */,
+				46E5053E252E773100666540 /* Palette+Color.swift in Sources */,
+				46E50520252E773100666540 /* Pick.swift in Sources */,
+				46E5051D252E773100666540 /* DraftService.swift in Sources */,
+				46E5053F252E773100666540 /* Measurement+Extensions.swift in Sources */,
+				46E50529252E773100666540 /* DraftPlayerDetailStatsView.swift in Sources */,
+				46E50530252E773100666540 /* ComplicationController.swift in Sources */,
+				46E50536252E773100666540 /* ScaledFont.swift in Sources */,
+				46E5051F252E773100666540 /* Data.swift in Sources */,
+				46E50535252E773100666540 /* LengthFormatters.swift in Sources */,
+				46E5052F252E773100666540 /* DraftPlayerDetailView.swift in Sources */,
+				46E50524252E773100666540 /* Prospect.swift in Sources */,
+				46E50527252E773100666540 /* DraftList.swift in Sources */,
+				46E50525252E773100666540 /* DraftRound.swift in Sources */,
+				46E5052A252E773100666540 /* DraftRoundCardView.swift in Sources */,
+				46E50537252E773100666540 /* CustomTextStyle.swift in Sources */,
+				46E5052E252E773100666540 /* DraftPlayerDetailHeaderView.swift in Sources */,
+				46E50532252E773100666540 /* NBAWatchDraftApp.swift in Sources */,
+				46E50521252E773100666540 /* Team.swift in Sources */,
+				46E50522252E773100666540 /* MockDraftPreviewService.swift in Sources */,
+				46E5052B252E773100666540 /* DraftRoundItemView.swift in Sources */,
+				46E5051E252E773100666540 /* DraftRoundItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46E504C6252E76F400666540 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46E504C2252E76F400666540 /* NBAWatchDraft WatchKit App */;
+			targetProxy = 46E504C5252E76F400666540 /* PBXContainerItemProxy */;
+		};
+		46E504D2252E76F400666540 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46E504CE252E76F400666540 /* NBAWatchDraft WatchKit Extension */;
+			targetProxy = 46E504D1252E76F400666540 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		46E504E0252E76F500666540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46E504E1252E76F500666540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46E504E3252E76F500666540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"NBAWatchDraft WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "NBAWatchDraft WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.designtoswiftui.NBAWatchDraft.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		46E504E4252E76F500666540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"NBAWatchDraft WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "NBAWatchDraft WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.designtoswiftui.NBAWatchDraft.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		46E504E7252E76F500666540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = NBAWatchDraft_WatchKit_Extension;
+				INFOPLIST_FILE = "NBAWatchDraft WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = io.designtoswiftui.NBAWatchDraft.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		46E504E8252E76F500666540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = NBAWatchDraft_WatchKit_Extension;
+				INFOPLIST_FILE = "NBAWatchDraft WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = io.designtoswiftui.NBAWatchDraft.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		46E504EB252E76F500666540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.designtoswiftui.NBAWatchDraft;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		46E504EC252E76F500666540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.designtoswiftui.NBAWatchDraft;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46E504BC252E76F400666540 /* Build configuration list for PBXProject "NBAWatchDraft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46E504E0252E76F500666540 /* Debug */,
+				46E504E1252E76F500666540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46E504E2252E76F500666540 /* Build configuration list for PBXNativeTarget "NBAWatchDraft WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46E504E3252E76F500666540 /* Debug */,
+				46E504E4252E76F500666540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46E504E6252E76F500666540 /* Build configuration list for PBXNativeTarget "NBAWatchDraft WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46E504E7252E76F500666540 /* Debug */,
+				46E504E8252E76F500666540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46E504EA252E76F500666540 /* Build configuration list for PBXNativeTarget "NBAWatchDraft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46E504EB252E76F500666540 /* Debug */,
+				46E504EC252E76F500666540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46E504B9252E76F400666540 /* Project object */;
+}

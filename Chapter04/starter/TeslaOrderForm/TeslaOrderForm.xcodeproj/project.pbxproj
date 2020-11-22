@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46BE858625321351003FBF44 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BE858525321351003FBF44 /* API.swift */; };
+		46E505CE2530AA4200666540 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46E505CD2530AA4200666540 /* Preview Assets.xcassets */; };
+		46E5060A2530AAB300666540 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46E505D82530AAB300666540 /* Assets.xcassets */; };
+		46E5060D2530AAB300666540 /* TeslaOrderFormApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E505DC2530AAB300666540 /* TeslaOrderFormApp.swift */; };
+		46E5060F2530AAB300666540 /* CarInfoBasicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E505E12530AAB300666540 /* CarInfoBasicView.swift */; };
+		46E506102530AAB300666540 /* CarInfoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E505E22530AAB300666540 /* CarInfoDetailView.swift */; };
+		46E506112530AAB300666540 /* CarInfoPhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E505E32530AAB300666540 /* CarInfoPhotosView.swift */; };
+		46E506122530AAB300666540 /* CarInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E505E42530AAB300666540 /* CarInfoView.swift */; };
+		46E506132530AAB300666540 /* CarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E505E52530AAB300666540 /* CarDetailView.swift */; };
+		46E506142530AAB300666540 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E505E62530AAB300666540 /* FormView.swift */; };
+		46E506172530AAB300666540 /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E505EA2530AAB300666540 /* OrderViewModel.swift */; };
+		46E506182530AAB300666540 /* CancelModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E505ED2530AAB300666540 /* CancelModalView.swift */; };
+		46E506192530AAB300666540 /* CancelOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E505EE2530AAB300666540 /* CancelOrderView.swift */; };
+		46E5061A2530AAB300666540 /* BottomOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E505F02530AAB300666540 /* BottomOrderView.swift */; };
+		46E5061B2530AAB300666540 /* CompleteOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E505F12530AAB300666540 /* CompleteOrderView.swift */; };
+		46E5061C2530AAB300666540 /* TopOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E505F22530AAB300666540 /* TopOrderView.swift */; };
+		46E5061D2530AAB300666540 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E505F32530AAB300666540 /* ContentView.swift */; };
+		46E5061E2530AAB300666540 /* TeslaButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E505F62530AAB300666540 /* TeslaButtonStyle.swift */; };
+		46E5061F2530AAB300666540 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E505F82530AAB300666540 /* RoundedView.swift */; };
+		46E506212530AAB300666540 /* CustomTextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E505FB2530AAB300666540 /* CustomTextStyle.swift */; };
+		46E506222530AAB300666540 /* AvenirNextCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46E505FD2530AAB300666540 /* AvenirNextCondensed-Bold.ttf */; };
+		46E506232530AAB300666540 /* AvenirNextCondensed-DemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46E505FE2530AAB300666540 /* AvenirNextCondensed-DemiBold.ttf */; };
+		46E506242530AAB300666540 /* AvenirNextCondensed-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46E505FF2530AAB300666540 /* AvenirNextCondensed-Heavy.ttf */; };
+		46E506252530AAB300666540 /* AvenirNextCondensed-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46E506002530AAB300666540 /* AvenirNextCondensed-Medium.ttf */; };
+		46E506262530AAB300666540 /* AvenirNextCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46E506012530AAB300666540 /* AvenirNextCondensed-Regular.ttf */; };
+		46E506272530AAB300666540 /* AvenirNextCondensed-UltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46E506022530AAB300666540 /* AvenirNextCondensed-UltraLight.ttf */; };
+		46E506282530AAB300666540 /* Palette+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E506032530AAB300666540 /* Palette+Color.swift */; };
+		46E506292530AAB300666540 /* ScaledFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E506042530AAB300666540 /* ScaledFont.swift */; };
+		46E5062A2530AAB300666540 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E506062530AAB300666540 /* NavigationBarView.swift */; };
+		46E5062B2530AAB300666540 /* VibrancyBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E506082530AAB300666540 /* VibrancyBackground.swift */; };
+		46E5062C2530AAB300666540 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E506092530AAB300666540 /* View+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		46BE858525321351003FBF44 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		46E505C32530AA4100666540 /* TeslaOrderForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeslaOrderForm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46E505CD2530AA4200666540 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		46E505CF2530AA4200666540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46E505D82530AAB300666540 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46E505DC2530AAB300666540 /* TeslaOrderFormApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeslaOrderFormApp.swift; sourceTree = "<group>"; };
+		46E505E12530AAB300666540 /* CarInfoBasicView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarInfoBasicView.swift; sourceTree = "<group>"; };
+		46E505E22530AAB300666540 /* CarInfoDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarInfoDetailView.swift; sourceTree = "<group>"; };
+		46E505E32530AAB300666540 /* CarInfoPhotosView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarInfoPhotosView.swift; sourceTree = "<group>"; };
+		46E505E42530AAB300666540 /* CarInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarInfoView.swift; sourceTree = "<group>"; };
+		46E505E52530AAB300666540 /* CarDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarDetailView.swift; sourceTree = "<group>"; };
+		46E505E62530AAB300666540 /* FormView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		46E505EA2530AAB300666540 /* OrderViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
+		46E505ED2530AAB300666540 /* CancelModalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelModalView.swift; sourceTree = "<group>"; };
+		46E505EE2530AAB300666540 /* CancelOrderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelOrderView.swift; sourceTree = "<group>"; };
+		46E505F02530AAB300666540 /* BottomOrderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomOrderView.swift; sourceTree = "<group>"; };
+		46E505F12530AAB300666540 /* CompleteOrderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompleteOrderView.swift; sourceTree = "<group>"; };
+		46E505F22530AAB300666540 /* TopOrderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopOrderView.swift; sourceTree = "<group>"; };
+		46E505F32530AAB300666540 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		46E505F62530AAB300666540 /* TeslaButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeslaButtonStyle.swift; sourceTree = "<group>"; };
+		46E505F82530AAB300666540 /* RoundedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
+		46E505FB2530AAB300666540 /* CustomTextStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextStyle.swift; sourceTree = "<group>"; };
+		46E505FD2530AAB300666540 /* AvenirNextCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirNextCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		46E505FE2530AAB300666540 /* AvenirNextCondensed-DemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirNextCondensed-DemiBold.ttf"; sourceTree = "<group>"; };
+		46E505FF2530AAB300666540 /* AvenirNextCondensed-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirNextCondensed-Heavy.ttf"; sourceTree = "<group>"; };
+		46E506002530AAB300666540 /* AvenirNextCondensed-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirNextCondensed-Medium.ttf"; sourceTree = "<group>"; };
+		46E506012530AAB300666540 /* AvenirNextCondensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirNextCondensed-Regular.ttf"; sourceTree = "<group>"; };
+		46E506022530AAB300666540 /* AvenirNextCondensed-UltraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirNextCondensed-UltraLight.ttf"; sourceTree = "<group>"; };
+		46E506032530AAB300666540 /* Palette+Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Palette+Color.swift"; sourceTree = "<group>"; };
+		46E506042530AAB300666540 /* ScaledFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaledFont.swift; sourceTree = "<group>"; };
+		46E506062530AAB300666540 /* NavigationBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+		46E506082530AAB300666540 /* VibrancyBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VibrancyBackground.swift; sourceTree = "<group>"; };
+		46E506092530AAB300666540 /* View+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46E505C02530AA4100666540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46E505BA2530AA4100666540 = {
+			isa = PBXGroup;
+			children = (
+				46E505C52530AA4100666540 /* TeslaOrderForm */,
+				46E505C42530AA4100666540 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46E505C42530AA4100666540 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46E505C32530AA4100666540 /* TeslaOrderForm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46E505C52530AA4100666540 /* TeslaOrderForm */ = {
+			isa = PBXGroup;
+			children = (
+				46E505F42530AAB300666540 /* Utilities */,
+				46E505D72530AAB300666540 /* Application */,
+				46E505DD2530AAB300666540 /* Supporting Views */,
+				46E505E82530AAB300666540 /* View Model */,
+				46E505EB2530AAB300666540 /* Views */,
+				46E505CF2530AA4200666540 /* Info.plist */,
+				46E505CC2530AA4200666540 /* Preview Content */,
+			);
+			path = TeslaOrderForm;
+			sourceTree = "<group>";
+		};
+		46E505CC2530AA4200666540 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				46E505CD2530AA4200666540 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		46E505D72530AAB300666540 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				46E505D82530AAB300666540 /* Assets.xcassets */,
+				46E505DC2530AAB300666540 /* TeslaOrderFormApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		46E505DD2530AAB300666540 /* Supporting Views */ = {
+			isa = PBXGroup;
+			children = (
+				46E505DF2530AAB300666540 /* Form View */,
+			);
+			path = "Supporting Views";
+			sourceTree = "<group>";
+		};
+		46E505DF2530AAB300666540 /* Form View */ = {
+			isa = PBXGroup;
+			children = (
+				46E505E02530AAB300666540 /* Car Info */,
+				46E505E52530AAB300666540 /* CarDetailView.swift */,
+				46E505E62530AAB300666540 /* FormView.swift */,
+			);
+			path = "Form View";
+			sourceTree = "<group>";
+		};
+		46E505E02530AAB300666540 /* Car Info */ = {
+			isa = PBXGroup;
+			children = (
+				46E505E12530AAB300666540 /* CarInfoBasicView.swift */,
+				46E505E22530AAB300666540 /* CarInfoDetailView.swift */,
+				46E505E32530AAB300666540 /* CarInfoPhotosView.swift */,
+				46E505E42530AAB300666540 /* CarInfoView.swift */,
+			);
+			path = "Car Info";
+			sourceTree = "<group>";
+		};
+		46E505E82530AAB300666540 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				46E505EA2530AAB300666540 /* OrderViewModel.swift */,
+				46BE858525321351003FBF44 /* API.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		46E505EB2530AAB300666540 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				46E505EC2530AAB300666540 /* Cancel Order View */,
+				46E505EF2530AAB300666540 /* Complete Order View */,
+				46E505F32530AAB300666540 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		46E505EC2530AAB300666540 /* Cancel Order View */ = {
+			isa = PBXGroup;
+			children = (
+				46E505ED2530AAB300666540 /* CancelModalView.swift */,
+				46E505EE2530AAB300666540 /* CancelOrderView.swift */,
+			);
+			path = "Cancel Order View";
+			sourceTree = "<group>";
+		};
+		46E505EF2530AAB300666540 /* Complete Order View */ = {
+			isa = PBXGroup;
+			children = (
+				46E505F02530AAB300666540 /* BottomOrderView.swift */,
+				46E505F12530AAB300666540 /* CompleteOrderView.swift */,
+				46E505F22530AAB300666540 /* TopOrderView.swift */,
+			);
+			path = "Complete Order View";
+			sourceTree = "<group>";
+		};
+		46E505F42530AAB300666540 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				46E505F92530AAB300666540 /* _theming  */,
+				46E505F52530AAB300666540 /* Button Styles */,
+				46E505F72530AAB300666540 /* Extensions */,
+				46E505F82530AAB300666540 /* RoundedView.swift */,
+				46E506092530AAB300666540 /* View+Extension.swift */,
+				46E506052530AAB300666540 /* View Modifier */,
+				46E506072530AAB300666540 /* View Representable */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		46E505F52530AAB300666540 /* Button Styles */ = {
+			isa = PBXGroup;
+			children = (
+				46E505F62530AAB300666540 /* TeslaButtonStyle.swift */,
+			);
+			path = "Button Styles";
+			sourceTree = "<group>";
+		};
+		46E505F72530AAB300666540 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		46E505F92530AAB300666540 /* _theming  */ = {
+			isa = PBXGroup;
+			children = (
+				46E505FC2530AAB300666540 /* Font */,
+				46E505FB2530AAB300666540 /* CustomTextStyle.swift */,
+				46E506032530AAB300666540 /* Palette+Color.swift */,
+				46E506042530AAB300666540 /* ScaledFont.swift */,
+			);
+			path = "_theming ";
+			sourceTree = "<group>";
+		};
+		46E505FC2530AAB300666540 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				46E505FD2530AAB300666540 /* AvenirNextCondensed-Bold.ttf */,
+				46E505FE2530AAB300666540 /* AvenirNextCondensed-DemiBold.ttf */,
+				46E505FF2530AAB300666540 /* AvenirNextCondensed-Heavy.ttf */,
+				46E506002530AAB300666540 /* AvenirNextCondensed-Medium.ttf */,
+				46E506012530AAB300666540 /* AvenirNextCondensed-Regular.ttf */,
+				46E506022530AAB300666540 /* AvenirNextCondensed-UltraLight.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		46E506052530AAB300666540 /* View Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				46E506062530AAB300666540 /* NavigationBarView.swift */,
+			);
+			path = "View Modifier";
+			sourceTree = "<group>";
+		};
+		46E506072530AAB300666540 /* View Representable */ = {
+			isa = PBXGroup;
+			children = (
+				46E506082530AAB300666540 /* VibrancyBackground.swift */,
+			);
+			path = "View Representable";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46E505C22530AA4100666540 /* TeslaOrderForm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46E505D22530AA4200666540 /* Build configuration list for PBXNativeTarget "TeslaOrderForm" */;
+			buildPhases = (
+				46E505BF2530AA4100666540 /* Sources */,
+				46E505C02530AA4100666540 /* Frameworks */,
+				46E505C12530AA4100666540 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TeslaOrderForm;
+			productName = TeslaOrderForm;
+			productReference = 46E505C32530AA4100666540 /* TeslaOrderForm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46E505BB2530AA4100666540 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					46E505C22530AA4100666540 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 46E505BE2530AA4100666540 /* Build configuration list for PBXProject "TeslaOrderForm" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46E505BA2530AA4100666540;
+			productRefGroup = 46E505C42530AA4100666540 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46E505C22530AA4100666540 /* TeslaOrderForm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46E505C12530AA4100666540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46E506242530AAB300666540 /* AvenirNextCondensed-Heavy.ttf in Resources */,
+				46E506262530AAB300666540 /* AvenirNextCondensed-Regular.ttf in Resources */,
+				46E506252530AAB300666540 /* AvenirNextCondensed-Medium.ttf in Resources */,
+				46E506222530AAB300666540 /* AvenirNextCondensed-Bold.ttf in Resources */,
+				46E506232530AAB300666540 /* AvenirNextCondensed-DemiBold.ttf in Resources */,
+				46E5060A2530AAB300666540 /* Assets.xcassets in Resources */,
+				46E506272530AAB300666540 /* AvenirNextCondensed-UltraLight.ttf in Resources */,
+				46E505CE2530AA4200666540 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46E505BF2530AA4100666540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46E5062B2530AAB300666540 /* VibrancyBackground.swift in Sources */,
+				46E5061E2530AAB300666540 /* TeslaButtonStyle.swift in Sources */,
+				46E506282530AAB300666540 /* Palette+Color.swift in Sources */,
+				46E506122530AAB300666540 /* CarInfoView.swift in Sources */,
+				46E5061B2530AAB300666540 /* CompleteOrderView.swift in Sources */,
+				46E506292530AAB300666540 /* ScaledFont.swift in Sources */,
+				46E506102530AAB300666540 /* CarInfoDetailView.swift in Sources */,
+				46E506172530AAB300666540 /* OrderViewModel.swift in Sources */,
+				46E5062A2530AAB300666540 /* NavigationBarView.swift in Sources */,
+				46E506212530AAB300666540 /* CustomTextStyle.swift in Sources */,
+				46E506132530AAB300666540 /* CarDetailView.swift in Sources */,
+				46E5060F2530AAB300666540 /* CarInfoBasicView.swift in Sources */,
+				46E5061F2530AAB300666540 /* RoundedView.swift in Sources */,
+				46E5061A2530AAB300666540 /* BottomOrderView.swift in Sources */,
+				46E5062C2530AAB300666540 /* View+Extension.swift in Sources */,
+				46BE858625321351003FBF44 /* API.swift in Sources */,
+				46E506192530AAB300666540 /* CancelOrderView.swift in Sources */,
+				46E506112530AAB300666540 /* CarInfoPhotosView.swift in Sources */,
+				46E5061C2530AAB300666540 /* TopOrderView.swift in Sources */,
+				46E5060D2530AAB300666540 /* TeslaOrderFormApp.swift in Sources */,
+				46E506142530AAB300666540 /* FormView.swift in Sources */,
+				46E5061D2530AAB300666540 /* ContentView.swift in Sources */,
+				46E506182530AAB300666540 /* CancelModalView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		46E505D02530AA4200666540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46E505D12530AA4200666540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46E505D32530AA4200666540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TeslaOrderForm/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TeslaOrderForm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.designtoswiftui.TeslaOrderForm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46E505D42530AA4200666540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TeslaOrderForm/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TeslaOrderForm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.designtoswiftui.TeslaOrderForm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46E505BE2530AA4100666540 /* Build configuration list for PBXProject "TeslaOrderForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46E505D02530AA4200666540 /* Debug */,
+				46E505D12530AA4200666540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46E505D22530AA4200666540 /* Build configuration list for PBXNativeTarget "TeslaOrderForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46E505D32530AA4200666540 /* Debug */,
+				46E505D42530AA4200666540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46E505BB2530AA4100666540 /* Project object */;
+}

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "57254CB3-62A7-4F8A-909C-527BCC5D7424"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0B8D9CF4-1B0B-45D1-BC1D-A7A09F066DD6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShoePOS/Model/ShoePOSViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "createProducts()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D1EEA1BA-B27A-4EFC-B5F8-25D66342D825"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShoePOS/Model/ShoePOSViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "createProducts()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D1EEA1BA-B27A-4EFC-B5F8-25D66342D825 - eb18ebfc6c94d3ab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;__C.CKRecord&gt;) -&gt; () in ShoePOS.ShoePOSViewModel.createProducts() -&gt; ()"
+                  moduleName = "ShoePOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/craigclayton/Downloads/Shoe%20POS/chapter%209/starter%20cc/ShoePOS/ShoePOS/Model/ShoePOSViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "158">
+               </Location>
+               <Location
+                  uuid = "D1EEA1BA-B27A-4EFC-B5F8-25D66342D825 - 632266d0eb5ab2ed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (Swift.Array&lt;__C.CKRecord&gt;) -&gt; () in ShoePOS.ShoePOSViewModel.createProducts() -&gt; ()"
+                  moduleName = "ShoePOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/craigclayton/Downloads/Shoe%20POS/chapter%209/starter%20cc/ShoePOS/ShoePOS/Model/ShoePOSViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "177">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4C268801-76CA-448A-B444-A0AFC4718D57"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShoePOS/Model/ShoePOSViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "createProducts()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4C268801-76CA-448A-B444-A0AFC4718D57 - 60acc6472f014f18"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShoePOS.ShoePOSViewModel.createProducts() -&gt; ()"
+                  moduleName = "ShoePOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/craigclayton/Downloads/Shoe%20POS/chapter%209/starter%20cc/ShoePOS/ShoePOS/Model/ShoePOSViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "4C268801-76CA-448A-B444-A0AFC4718D57 - eb18ebfc6c94d3ab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;__C.CKRecord&gt;) -&gt; () in ShoePOS.ShoePOSViewModel.createProducts() -&gt; ()"
+                  moduleName = "ShoePOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/craigclayton/Downloads/Shoe%20POS/chapter%209/starter%20cc/ShoePOS/ShoePOS/Model/ShoePOSViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "158">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7CE3C433-35FB-4136-8277-9C6296A7728C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShoePOS/Model/ShoePOSViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "createProducts()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D3EED0DE-D838-4A37-8C3A-174C60C8BF25"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShoePOS/Model/ShoePOSViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "createProducts()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

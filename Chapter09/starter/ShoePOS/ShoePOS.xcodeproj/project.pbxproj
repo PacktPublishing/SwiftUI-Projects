@@ -1,0 +1,989 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4658166D25524C94004477D3 /* ProductsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4658166C25524C94004477D3 /* ProductsHeaderView.swift */; };
+		4658167025524CC5004477D3 /* ProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4658166F25524CC5004477D3 /* ProductsView.swift */; };
+		4658167325524CE8004477D3 /* CartHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4658167225524CE8004477D3 /* CartHeaderView.swift */; };
+		4658167625524D08004477D3 /* CartTotalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4658167525524D08004477D3 /* CartTotalView.swift */; };
+		4658167925524D31004477D3 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4658167825524D31004477D3 /* CartView.swift */; };
+		4658167C25524D88004477D3 /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4658167B25524D88004477D3 /* ProductView.swift */; };
+		4658168625524EB2004477D3 /* ProductsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4658168525524EB2004477D3 /* ProductsContentView.swift */; };
+		4658168925524F01004477D3 /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4658168825524F01004477D3 /* StepperView.swift */; };
+		4658168C25524F3A004477D3 /* ShoePOSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4658168B25524F3A004477D3 /* ShoePOSButton.swift */; };
+		4658168F25524FAE004477D3 /* SizeCartItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4658168E25524FAE004477D3 /* SizeCartItemView.swift */; };
+		465816922552503F004477D3 /* CartItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465816912552503F004477D3 /* CartItemView.swift */; };
+		465816952552506F004477D3 /* CartContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465816942552506F004477D3 /* CartContentView.swift */; };
+		46BDD5B32554F6BE00781354 /* adidas.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD53F2554F6BD00781354 /* adidas.png */; };
+		46BDD5B42554F6BE00781354 /* asics.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5402554F6BD00781354 /* asics.png */; };
+		46BDD5B52554F6BE00781354 /* champion.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5412554F6BD00781354 /* champion.png */; };
+		46BDD5B62554F6BE00781354 /* converse.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5422554F6BD00781354 /* converse.png */; };
+		46BDD5B72554F6BE00781354 /* csg.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5432554F6BD00781354 /* csg.png */; };
+		46BDD5B82554F6BE00781354 /* fila.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5442554F6BD00781354 /* fila.png */; };
+		46BDD5B92554F6BE00781354 /* jordan.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5452554F6BD00781354 /* jordan.png */; };
+		46BDD5BA2554F6BE00781354 /* new-balance.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5462554F6BD00781354 /* new-balance.png */; };
+		46BDD5BB2554F6BE00781354 /* new-era.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5472554F6BD00781354 /* new-era.png */; };
+		46BDD5BC2554F6BE00781354 /* nike.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5482554F6BD00781354 /* nike.png */; };
+		46BDD5BD2554F6BE00781354 /* puma.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5492554F6BD00781354 /* puma.png */; };
+		46BDD5BE2554F6BE00781354 /* reebok.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD54A2554F6BD00781354 /* reebok.png */; };
+		46BDD5BF2554F6BE00781354 /* under-armour.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD54B2554F6BD00781354 /* under-armour.png */; };
+		46BDD5C02554F6BE00781354 /* adidas-originals-hardcourt-low.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD54D2554F6BD00781354 /* adidas-originals-hardcourt-low.png */; };
+		46BDD5C12554F6BE00781354 /* adidas-originals-hardcourt-low@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD54E2554F6BD00781354 /* adidas-originals-hardcourt-low@2x.png */; };
+		46BDD5C22554F6BE00781354 /* adidas-originals-hardcourt-low@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD54F2554F6BD00781354 /* adidas-originals-hardcourt-low@3x.png */; };
+		46BDD5C32554F6BE00781354 /* adidas-originals-hardcourt.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5502554F6BD00781354 /* adidas-originals-hardcourt.png */; };
+		46BDD5C42554F6BE00781354 /* adidas-originals-hardcourt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5512554F6BD00781354 /* adidas-originals-hardcourt@2x.png */; };
+		46BDD5C52554F6BE00781354 /* adidas-originals-hardcourt@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5522554F6BD00781354 /* adidas-originals-hardcourt@3x.png */; };
+		46BDD5C62554F6BE00781354 /* asics-gel-kayano-26.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5532554F6BD00781354 /* asics-gel-kayano-26.png */; };
+		46BDD5C72554F6BE00781354 /* asics-gel-kayano-26@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5542554F6BD00781354 /* asics-gel-kayano-26@2x.png */; };
+		46BDD5C82554F6BE00781354 /* asics-gel-kayano-26@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5552554F6BD00781354 /* asics-gel-kayano-26@3x.png */; };
+		46BDD5C92554F6BE00781354 /* asics-gel-nimbus-22.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5562554F6BD00781354 /* asics-gel-nimbus-22.png */; };
+		46BDD5CA2554F6BE00781354 /* asics-gel-nimbus-22@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5572554F6BD00781354 /* asics-gel-nimbus-22@2x.png */; };
+		46BDD5CB2554F6BE00781354 /* asics-gel-nimbus-22@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5582554F6BD00781354 /* asics-gel-nimbus-22@3x.png */; };
+		46BDD5CC2554F6BE00781354 /* champion-rally-crossover.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5592554F6BD00781354 /* champion-rally-crossover.png */; };
+		46BDD5CD2554F6BE00781354 /* champion-rally-crossover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD55A2554F6BD00781354 /* champion-rally-crossover@2x.png */; };
+		46BDD5CE2554F6BE00781354 /* champion-rally-crossover@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD55B2554F6BD00781354 /* champion-rally-crossover@3x.png */; };
+		46BDD5CF2554F6BE00781354 /* champion-super-court-low.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD55C2554F6BD00781354 /* champion-super-court-low.png */; };
+		46BDD5D02554F6BE00781354 /* champion-super-court-low@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD55D2554F6BE00781354 /* champion-super-court-low@2x.png */; };
+		46BDD5D12554F6BE00781354 /* champion-super-court-low@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD55E2554F6BE00781354 /* champion-super-court-low@3x.png */; };
+		46BDD5D22554F6BE00781354 /* converse-ctas-buckle-up-hi.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD55F2554F6BE00781354 /* converse-ctas-buckle-up-hi.png */; };
+		46BDD5D32554F6BE00781354 /* converse-ctas-buckle-up-hi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5602554F6BE00781354 /* converse-ctas-buckle-up-hi@2x.png */; };
+		46BDD5D42554F6BE00781354 /* converse-ctas-buckle-up-hi@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5612554F6BE00781354 /* converse-ctas-buckle-up-hi@3x.png */; };
+		46BDD5D52554F6BE00781354 /* converse-unt1tl3d-hi.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5622554F6BE00781354 /* converse-unt1tl3d-hi.png */; };
+		46BDD5D62554F6BE00781354 /* converse-unt1tl3d-hi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5632554F6BE00781354 /* converse-unt1tl3d-hi@2x.png */; };
+		46BDD5D72554F6BE00781354 /* converse-unt1tl3d-hi@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5642554F6BE00781354 /* converse-unt1tl3d-hi@3x.png */; };
+		46BDD5D82554F6BE00781354 /* fila-disruptor-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5652554F6BE00781354 /* fila-disruptor-2.png */; };
+		46BDD5D92554F6BE00781354 /* fila-disruptor-2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5662554F6BE00781354 /* fila-disruptor-2@2x.png */; };
+		46BDD5DA2554F6BE00781354 /* fila-disruptor-2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5672554F6BE00781354 /* fila-disruptor-2@3x.png */; };
+		46BDD5DB2554F6BE00781354 /* fila-grant-hill-96-mid.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5682554F6BE00781354 /* fila-grant-hill-96-mid.png */; };
+		46BDD5DC2554F6BE00781354 /* fila-grant-hill-96-mid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5692554F6BE00781354 /* fila-grant-hill-96-mid@2x.png */; };
+		46BDD5DD2554F6BE00781354 /* fila-grant-hill-96-mid@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD56A2554F6BE00781354 /* fila-grant-hill-96-mid@3x.png */; };
+		46BDD5DE2554F6BE00781354 /* jordan-max-aura-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD56B2554F6BE00781354 /* jordan-max-aura-2.png */; };
+		46BDD5DF2554F6BE00781354 /* jordan-max-aura-2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD56C2554F6BE00781354 /* jordan-max-aura-2@2x.png */; };
+		46BDD5E02554F6BE00781354 /* jordan-max-aura-2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD56D2554F6BE00781354 /* jordan-max-aura-2@3x.png */; };
+		46BDD5E12554F6BE00781354 /* jordan-maxin-200.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD56E2554F6BE00781354 /* jordan-maxin-200.png */; };
+		46BDD5E22554F6BE00781354 /* jordan-maxin-200@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD56F2554F6BE00781354 /* jordan-maxin-200@2x.png */; };
+		46BDD5E32554F6BE00781354 /* jordan-maxin-200@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5702554F6BE00781354 /* jordan-maxin-200@3x.png */; };
+		46BDD5E42554F6BE00781354 /* kswiss.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5712554F6BE00781354 /* kswiss.png */; };
+		46BDD5E52554F6BE00781354 /* kswiss@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5722554F6BE00781354 /* kswiss@2x.png */; };
+		46BDD5E62554F6BE00781354 /* kswiss@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5732554F6BE00781354 /* kswiss@3x.png */; };
+		46BDD5E72554F6BE00781354 /* new-balance-801.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5742554F6BE00781354 /* new-balance-801.png */; };
+		46BDD5E82554F6BE00781354 /* new-balance-801@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5752554F6BE00781354 /* new-balance-801@2x.png */; };
+		46BDD5E92554F6BE00781354 /* new-balance-801@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5762554F6BE00781354 /* new-balance-801@3x.png */; };
+		46BDD5EA2554F6BE00781354 /* new-balance-omn1s-low.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5772554F6BE00781354 /* new-balance-omn1s-low.png */; };
+		46BDD5EB2554F6BE00781354 /* new-balance-omn1s-low@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5782554F6BE00781354 /* new-balance-omn1s-low@2x.png */; };
+		46BDD5EC2554F6BE00781354 /* new-balance-omn1s-low@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5792554F6BE00781354 /* new-balance-omn1s-low@3x.png */; };
+		46BDD5ED2554F6BE00781354 /* nike-kobe-ad-nxt.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD57A2554F6BE00781354 /* nike-kobe-ad-nxt.png */; };
+		46BDD5EE2554F6BE00781354 /* nike-kobe-ad-nxt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD57B2554F6BE00781354 /* nike-kobe-ad-nxt@2x.png */; };
+		46BDD5EF2554F6BE00781354 /* nike-kobe-ad-nxt@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD57C2554F6BE00781354 /* nike-kobe-ad-nxt@3x.png */; };
+		46BDD5F02554F6BE00781354 /* nike-mamba-fury.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD57D2554F6BE00781354 /* nike-mamba-fury.png */; };
+		46BDD5F12554F6BE00781354 /* nike-mamba-fury@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD57E2554F6BE00781354 /* nike-mamba-fury@2x.png */; };
+		46BDD5F22554F6BE00781354 /* nike-mamba-fury@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD57F2554F6BE00781354 /* nike-mamba-fury@3x.png */; };
+		46BDD5F32554F6BE00781354 /* noimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5802554F6BE00781354 /* noimage.png */; };
+		46BDD5F42554F6BE00781354 /* noimage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5812554F6BE00781354 /* noimage@2x.png */; };
+		46BDD5F52554F6BE00781354 /* noimage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5822554F6BE00781354 /* noimage@3x.png */; };
+		46BDD5F62554F6BE00781354 /* puma-calibrate-runner.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5832554F6BE00781354 /* puma-calibrate-runner.png */; };
+		46BDD5F72554F6BE00781354 /* puma-calibrate-runner@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5842554F6BE00781354 /* puma-calibrate-runner@2x.png */; };
+		46BDD5F82554F6BE00781354 /* puma-calibrate-runner@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5852554F6BE00781354 /* puma-calibrate-runner@3x.png */; };
+		46BDD5F92554F6BE00781354 /* puma-suede-new-classic.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5862554F6BE00781354 /* puma-suede-new-classic.png */; };
+		46BDD5FA2554F6BE00781354 /* puma-suede-new-classic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5872554F6BE00781354 /* puma-suede-new-classic@2x.png */; };
+		46BDD5FB2554F6BE00781354 /* puma-suede-new-classic@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5882554F6BE00781354 /* puma-suede-new-classic@3x.png */; };
+		46BDD5FC2554F6BE00781354 /* reebok-iverson-legacy.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5892554F6BE00781354 /* reebok-iverson-legacy.png */; };
+		46BDD5FD2554F6BE00781354 /* reebok-iverson-legacy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD58A2554F6BE00781354 /* reebok-iverson-legacy@2x.png */; };
+		46BDD5FE2554F6BE00781354 /* reebok-iverson-legacy@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD58B2554F6BE00781354 /* reebok-iverson-legacy@3x.png */; };
+		46BDD5FF2554F6BE00781354 /* reebok-workout-plus-altered.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD58C2554F6BE00781354 /* reebok-workout-plus-altered.png */; };
+		46BDD6002554F6BE00781354 /* reebok-workout-plus-altered@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD58D2554F6BE00781354 /* reebok-workout-plus-altered@2x.png */; };
+		46BDD6012554F6BE00781354 /* reebok-workout-plus-altered@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD58E2554F6BE00781354 /* reebok-workout-plus-altered@3x.png */; };
+		46BDD6022554F6BE00781354 /* shoe-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD58F2554F6BE00781354 /* shoe-1.png */; };
+		46BDD6032554F6BE00781354 /* shoe-10.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5902554F6BE00781354 /* shoe-10.png */; };
+		46BDD6042554F6BE00781354 /* shoe-10@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5912554F6BE00781354 /* shoe-10@2x.png */; };
+		46BDD6052554F6BE00781354 /* shoe-10@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5922554F6BE00781354 /* shoe-10@3x.png */; };
+		46BDD6062554F6BE00781354 /* shoe-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5932554F6BE00781354 /* shoe-1@2x.png */; };
+		46BDD6072554F6BE00781354 /* shoe-1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5942554F6BE00781354 /* shoe-1@3x.png */; };
+		46BDD6082554F6BE00781354 /* shoe-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5952554F6BE00781354 /* shoe-2.png */; };
+		46BDD6092554F6BE00781354 /* shoe-2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5962554F6BE00781354 /* shoe-2@2x.png */; };
+		46BDD60A2554F6BE00781354 /* shoe-2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5972554F6BE00781354 /* shoe-2@3x.png */; };
+		46BDD60B2554F6BE00781354 /* shoe-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5982554F6BE00781354 /* shoe-3.png */; };
+		46BDD60C2554F6BE00781354 /* shoe-3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5992554F6BE00781354 /* shoe-3@2x.png */; };
+		46BDD60D2554F6BE00781354 /* shoe-3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD59A2554F6BE00781354 /* shoe-3@3x.png */; };
+		46BDD60E2554F6BE00781354 /* shoe-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD59B2554F6BE00781354 /* shoe-4.png */; };
+		46BDD60F2554F6BE00781354 /* shoe-4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD59C2554F6BE00781354 /* shoe-4@2x.png */; };
+		46BDD6102554F6BE00781354 /* shoe-4@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD59D2554F6BE00781354 /* shoe-4@3x.png */; };
+		46BDD6112554F6BE00781354 /* shoe-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD59E2554F6BE00781354 /* shoe-5.png */; };
+		46BDD6122554F6BE00781354 /* shoe-5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD59F2554F6BE00781354 /* shoe-5@2x.png */; };
+		46BDD6132554F6BE00781354 /* shoe-5@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5A02554F6BE00781354 /* shoe-5@3x.png */; };
+		46BDD6142554F6BE00781354 /* shoe-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5A12554F6BE00781354 /* shoe-6.png */; };
+		46BDD6152554F6BE00781354 /* shoe-6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5A22554F6BE00781354 /* shoe-6@2x.png */; };
+		46BDD6162554F6BE00781354 /* shoe-6@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5A32554F6BE00781354 /* shoe-6@3x.png */; };
+		46BDD6172554F6BE00781354 /* shoe-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5A42554F6BE00781354 /* shoe-7.png */; };
+		46BDD6182554F6BE00781354 /* shoe-7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5A52554F6BE00781354 /* shoe-7@2x.png */; };
+		46BDD6192554F6BE00781354 /* shoe-7@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5A62554F6BE00781354 /* shoe-7@3x.png */; };
+		46BDD61A2554F6BE00781354 /* shoe-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5A72554F6BE00781354 /* shoe-8.png */; };
+		46BDD61B2554F6BE00781354 /* shoe-8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5A82554F6BE00781354 /* shoe-8@2x.png */; };
+		46BDD61C2554F6BE00781354 /* shoe-8@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5A92554F6BE00781354 /* shoe-8@3x.png */; };
+		46BDD61D2554F6BE00781354 /* shoe-9.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5AA2554F6BE00781354 /* shoe-9.png */; };
+		46BDD61E2554F6BE00781354 /* shoe-9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5AB2554F6BE00781354 /* shoe-9@2x.png */; };
+		46BDD61F2554F6BE00781354 /* shoe-9@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5AC2554F6BE00781354 /* shoe-9@3x.png */; };
+		46BDD6202554F6BE00781354 /* under-armour-sc-3zero-III.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5AD2554F6BE00781354 /* under-armour-sc-3zero-III.png */; };
+		46BDD6212554F6BE00781354 /* under-armour-sc-3zero-III@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5AE2554F6BE00781354 /* under-armour-sc-3zero-III@2x.png */; };
+		46BDD6222554F6BE00781354 /* under-armour-sc-3zero-III@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5AF2554F6BE00781354 /* under-armour-sc-3zero-III@3x.png */; };
+		46BDD6232554F6BE00781354 /* under-armour-spawn-low.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5B02554F6BE00781354 /* under-armour-spawn-low.png */; };
+		46BDD6242554F6BE00781354 /* under-armour-spawn-low@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5B12554F6BE00781354 /* under-armour-spawn-low@2x.png */; };
+		46BDD6252554F6BE00781354 /* under-armour-spawn-low@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5B22554F6BE00781354 /* under-armour-spawn-low@3x.png */; };
+		46BDD6922558CB2100781354 /* ProductDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BDD6912558CB2000781354 /* ProductDetail.swift */; };
+		46F62E7424E0A53A00DF816B /* ShoePOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F62E7324E0A53A00DF816B /* ShoePOSApp.swift */; };
+		46F62E7624E0A53A00DF816B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F62E7524E0A53A00DF816B /* ContentView.swift */; };
+		46F62E7824E0A53B00DF816B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46F62E7724E0A53B00DF816B /* Assets.xcassets */; };
+		46F62E7B24E0A53B00DF816B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46F62E7A24E0A53B00DF816B /* Preview Assets.xcassets */; };
+		46F62EBB24E0A71200DF816B /* ScaledFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F62EAF24E0A71200DF816B /* ScaledFont.swift */; };
+		46F62EBC24E0A71200DF816B /* CustomTextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F62EB024E0A71200DF816B /* CustomTextStyle.swift */; };
+		46F62EBD24E0A71200DF816B /* AvenirNextCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46F62EB224E0A71200DF816B /* AvenirNextCondensed-Regular.ttf */; };
+		46F62EBE24E0A71200DF816B /* AvenirNextCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46F62EB324E0A71200DF816B /* AvenirNextCondensed-Bold.ttf */; };
+		46F62EBF24E0A71200DF816B /* AvenirNextCondensed-DemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46F62EB424E0A71200DF816B /* AvenirNextCondensed-DemiBold.ttf */; };
+		46F62EC024E0A71200DF816B /* AvenirNextCondensed-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46F62EB524E0A71200DF816B /* AvenirNextCondensed-Medium.ttf */; };
+		46F62EC124E0A71200DF816B /* AvenirNextCondensed-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46F62EB624E0A71200DF816B /* AvenirNextCondensed-Heavy.ttf */; };
+		46F62EC224E0A71200DF816B /* AvenirNextCondensed-UltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46F62EB724E0A71200DF816B /* AvenirNextCondensed-UltraLight.ttf */; };
+		46F62EC324E0A71200DF816B /* Palette+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F62EB824E0A71200DF816B /* Palette+Color.swift */; };
+		46F62EC424E0A71200DF816B /* HorizontalTabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F62EB924E0A71200DF816B /* HorizontalTabsView.swift */; };
+		46F62EC524E0A71200DF816B /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F62EBA24E0A71200DF816B /* View+Extension.swift */; };
+		46F8D1E12520F3EF0080BDF7 /* VibrancyBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F8D1E02520F3EF0080BDF7 /* VibrancyBackground.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4658166C25524C94004477D3 /* ProductsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsHeaderView.swift; sourceTree = "<group>"; };
+		4658166F25524CC5004477D3 /* ProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsView.swift; sourceTree = "<group>"; };
+		4658167225524CE8004477D3 /* CartHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartHeaderView.swift; sourceTree = "<group>"; };
+		4658167525524D08004477D3 /* CartTotalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTotalView.swift; sourceTree = "<group>"; };
+		4658167825524D31004477D3 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		4658167B25524D88004477D3 /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
+		4658168525524EB2004477D3 /* ProductsContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsContentView.swift; sourceTree = "<group>"; };
+		4658168825524F01004477D3 /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
+		4658168B25524F3A004477D3 /* ShoePOSButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoePOSButton.swift; sourceTree = "<group>"; };
+		4658168E25524FAE004477D3 /* SizeCartItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeCartItemView.swift; sourceTree = "<group>"; };
+		465816912552503F004477D3 /* CartItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItemView.swift; sourceTree = "<group>"; };
+		465816942552506F004477D3 /* CartContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartContentView.swift; sourceTree = "<group>"; };
+		46BDD53F2554F6BD00781354 /* adidas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = adidas.png; sourceTree = "<group>"; };
+		46BDD5402554F6BD00781354 /* asics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asics.png; sourceTree = "<group>"; };
+		46BDD5412554F6BD00781354 /* champion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = champion.png; sourceTree = "<group>"; };
+		46BDD5422554F6BD00781354 /* converse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = converse.png; sourceTree = "<group>"; };
+		46BDD5432554F6BD00781354 /* csg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = csg.png; sourceTree = "<group>"; };
+		46BDD5442554F6BD00781354 /* fila.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fila.png; sourceTree = "<group>"; };
+		46BDD5452554F6BD00781354 /* jordan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jordan.png; sourceTree = "<group>"; };
+		46BDD5462554F6BD00781354 /* new-balance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new-balance.png"; sourceTree = "<group>"; };
+		46BDD5472554F6BD00781354 /* new-era.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new-era.png"; sourceTree = "<group>"; };
+		46BDD5482554F6BD00781354 /* nike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nike.png; sourceTree = "<group>"; };
+		46BDD5492554F6BD00781354 /* puma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = puma.png; sourceTree = "<group>"; };
+		46BDD54A2554F6BD00781354 /* reebok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reebok.png; sourceTree = "<group>"; };
+		46BDD54B2554F6BD00781354 /* under-armour.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "under-armour.png"; sourceTree = "<group>"; };
+		46BDD54D2554F6BD00781354 /* adidas-originals-hardcourt-low.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "adidas-originals-hardcourt-low.png"; sourceTree = "<group>"; };
+		46BDD54E2554F6BD00781354 /* adidas-originals-hardcourt-low@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "adidas-originals-hardcourt-low@2x.png"; sourceTree = "<group>"; };
+		46BDD54F2554F6BD00781354 /* adidas-originals-hardcourt-low@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "adidas-originals-hardcourt-low@3x.png"; sourceTree = "<group>"; };
+		46BDD5502554F6BD00781354 /* adidas-originals-hardcourt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "adidas-originals-hardcourt.png"; sourceTree = "<group>"; };
+		46BDD5512554F6BD00781354 /* adidas-originals-hardcourt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "adidas-originals-hardcourt@2x.png"; sourceTree = "<group>"; };
+		46BDD5522554F6BD00781354 /* adidas-originals-hardcourt@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "adidas-originals-hardcourt@3x.png"; sourceTree = "<group>"; };
+		46BDD5532554F6BD00781354 /* asics-gel-kayano-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "asics-gel-kayano-26.png"; sourceTree = "<group>"; };
+		46BDD5542554F6BD00781354 /* asics-gel-kayano-26@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "asics-gel-kayano-26@2x.png"; sourceTree = "<group>"; };
+		46BDD5552554F6BD00781354 /* asics-gel-kayano-26@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "asics-gel-kayano-26@3x.png"; sourceTree = "<group>"; };
+		46BDD5562554F6BD00781354 /* asics-gel-nimbus-22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "asics-gel-nimbus-22.png"; sourceTree = "<group>"; };
+		46BDD5572554F6BD00781354 /* asics-gel-nimbus-22@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "asics-gel-nimbus-22@2x.png"; sourceTree = "<group>"; };
+		46BDD5582554F6BD00781354 /* asics-gel-nimbus-22@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "asics-gel-nimbus-22@3x.png"; sourceTree = "<group>"; };
+		46BDD5592554F6BD00781354 /* champion-rally-crossover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "champion-rally-crossover.png"; sourceTree = "<group>"; };
+		46BDD55A2554F6BD00781354 /* champion-rally-crossover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "champion-rally-crossover@2x.png"; sourceTree = "<group>"; };
+		46BDD55B2554F6BD00781354 /* champion-rally-crossover@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "champion-rally-crossover@3x.png"; sourceTree = "<group>"; };
+		46BDD55C2554F6BD00781354 /* champion-super-court-low.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "champion-super-court-low.png"; sourceTree = "<group>"; };
+		46BDD55D2554F6BE00781354 /* champion-super-court-low@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "champion-super-court-low@2x.png"; sourceTree = "<group>"; };
+		46BDD55E2554F6BE00781354 /* champion-super-court-low@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "champion-super-court-low@3x.png"; sourceTree = "<group>"; };
+		46BDD55F2554F6BE00781354 /* converse-ctas-buckle-up-hi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "converse-ctas-buckle-up-hi.png"; sourceTree = "<group>"; };
+		46BDD5602554F6BE00781354 /* converse-ctas-buckle-up-hi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "converse-ctas-buckle-up-hi@2x.png"; sourceTree = "<group>"; };
+		46BDD5612554F6BE00781354 /* converse-ctas-buckle-up-hi@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "converse-ctas-buckle-up-hi@3x.png"; sourceTree = "<group>"; };
+		46BDD5622554F6BE00781354 /* converse-unt1tl3d-hi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "converse-unt1tl3d-hi.png"; sourceTree = "<group>"; };
+		46BDD5632554F6BE00781354 /* converse-unt1tl3d-hi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "converse-unt1tl3d-hi@2x.png"; sourceTree = "<group>"; };
+		46BDD5642554F6BE00781354 /* converse-unt1tl3d-hi@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "converse-unt1tl3d-hi@3x.png"; sourceTree = "<group>"; };
+		46BDD5652554F6BE00781354 /* fila-disruptor-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fila-disruptor-2.png"; sourceTree = "<group>"; };
+		46BDD5662554F6BE00781354 /* fila-disruptor-2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fila-disruptor-2@2x.png"; sourceTree = "<group>"; };
+		46BDD5672554F6BE00781354 /* fila-disruptor-2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fila-disruptor-2@3x.png"; sourceTree = "<group>"; };
+		46BDD5682554F6BE00781354 /* fila-grant-hill-96-mid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fila-grant-hill-96-mid.png"; sourceTree = "<group>"; };
+		46BDD5692554F6BE00781354 /* fila-grant-hill-96-mid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fila-grant-hill-96-mid@2x.png"; sourceTree = "<group>"; };
+		46BDD56A2554F6BE00781354 /* fila-grant-hill-96-mid@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fila-grant-hill-96-mid@3x.png"; sourceTree = "<group>"; };
+		46BDD56B2554F6BE00781354 /* jordan-max-aura-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jordan-max-aura-2.png"; sourceTree = "<group>"; };
+		46BDD56C2554F6BE00781354 /* jordan-max-aura-2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jordan-max-aura-2@2x.png"; sourceTree = "<group>"; };
+		46BDD56D2554F6BE00781354 /* jordan-max-aura-2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jordan-max-aura-2@3x.png"; sourceTree = "<group>"; };
+		46BDD56E2554F6BE00781354 /* jordan-maxin-200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jordan-maxin-200.png"; sourceTree = "<group>"; };
+		46BDD56F2554F6BE00781354 /* jordan-maxin-200@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jordan-maxin-200@2x.png"; sourceTree = "<group>"; };
+		46BDD5702554F6BE00781354 /* jordan-maxin-200@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jordan-maxin-200@3x.png"; sourceTree = "<group>"; };
+		46BDD5712554F6BE00781354 /* kswiss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kswiss.png; sourceTree = "<group>"; };
+		46BDD5722554F6BE00781354 /* kswiss@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kswiss@2x.png"; sourceTree = "<group>"; };
+		46BDD5732554F6BE00781354 /* kswiss@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kswiss@3x.png"; sourceTree = "<group>"; };
+		46BDD5742554F6BE00781354 /* new-balance-801.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new-balance-801.png"; sourceTree = "<group>"; };
+		46BDD5752554F6BE00781354 /* new-balance-801@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new-balance-801@2x.png"; sourceTree = "<group>"; };
+		46BDD5762554F6BE00781354 /* new-balance-801@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new-balance-801@3x.png"; sourceTree = "<group>"; };
+		46BDD5772554F6BE00781354 /* new-balance-omn1s-low.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new-balance-omn1s-low.png"; sourceTree = "<group>"; };
+		46BDD5782554F6BE00781354 /* new-balance-omn1s-low@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new-balance-omn1s-low@2x.png"; sourceTree = "<group>"; };
+		46BDD5792554F6BE00781354 /* new-balance-omn1s-low@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new-balance-omn1s-low@3x.png"; sourceTree = "<group>"; };
+		46BDD57A2554F6BE00781354 /* nike-kobe-ad-nxt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nike-kobe-ad-nxt.png"; sourceTree = "<group>"; };
+		46BDD57B2554F6BE00781354 /* nike-kobe-ad-nxt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nike-kobe-ad-nxt@2x.png"; sourceTree = "<group>"; };
+		46BDD57C2554F6BE00781354 /* nike-kobe-ad-nxt@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nike-kobe-ad-nxt@3x.png"; sourceTree = "<group>"; };
+		46BDD57D2554F6BE00781354 /* nike-mamba-fury.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nike-mamba-fury.png"; sourceTree = "<group>"; };
+		46BDD57E2554F6BE00781354 /* nike-mamba-fury@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nike-mamba-fury@2x.png"; sourceTree = "<group>"; };
+		46BDD57F2554F6BE00781354 /* nike-mamba-fury@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nike-mamba-fury@3x.png"; sourceTree = "<group>"; };
+		46BDD5802554F6BE00781354 /* noimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noimage.png; sourceTree = "<group>"; };
+		46BDD5812554F6BE00781354 /* noimage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "noimage@2x.png"; sourceTree = "<group>"; };
+		46BDD5822554F6BE00781354 /* noimage@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "noimage@3x.png"; sourceTree = "<group>"; };
+		46BDD5832554F6BE00781354 /* puma-calibrate-runner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "puma-calibrate-runner.png"; sourceTree = "<group>"; };
+		46BDD5842554F6BE00781354 /* puma-calibrate-runner@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "puma-calibrate-runner@2x.png"; sourceTree = "<group>"; };
+		46BDD5852554F6BE00781354 /* puma-calibrate-runner@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "puma-calibrate-runner@3x.png"; sourceTree = "<group>"; };
+		46BDD5862554F6BE00781354 /* puma-suede-new-classic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "puma-suede-new-classic.png"; sourceTree = "<group>"; };
+		46BDD5872554F6BE00781354 /* puma-suede-new-classic@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "puma-suede-new-classic@2x.png"; sourceTree = "<group>"; };
+		46BDD5882554F6BE00781354 /* puma-suede-new-classic@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "puma-suede-new-classic@3x.png"; sourceTree = "<group>"; };
+		46BDD5892554F6BE00781354 /* reebok-iverson-legacy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reebok-iverson-legacy.png"; sourceTree = "<group>"; };
+		46BDD58A2554F6BE00781354 /* reebok-iverson-legacy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reebok-iverson-legacy@2x.png"; sourceTree = "<group>"; };
+		46BDD58B2554F6BE00781354 /* reebok-iverson-legacy@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reebok-iverson-legacy@3x.png"; sourceTree = "<group>"; };
+		46BDD58C2554F6BE00781354 /* reebok-workout-plus-altered.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reebok-workout-plus-altered.png"; sourceTree = "<group>"; };
+		46BDD58D2554F6BE00781354 /* reebok-workout-plus-altered@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reebok-workout-plus-altered@2x.png"; sourceTree = "<group>"; };
+		46BDD58E2554F6BE00781354 /* reebok-workout-plus-altered@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reebok-workout-plus-altered@3x.png"; sourceTree = "<group>"; };
+		46BDD58F2554F6BE00781354 /* shoe-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shoe-1.png"; sourceTree = "<group>"; };
+		46BDD5902554F6BE00781354 /* shoe-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shoe-10.png"; sourceTree = "<group>"; };
+		46BDD5912554F6BE00781354 /* shoe-10@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shoe-10@2x.png"; sourceTree = "<group>"; };
+		46BDD5922554F6BE00781354 /* shoe-10@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shoe-10@3x.png"; sourceTree = "<group>"; };
+		46BDD5932554F6BE00781354 /* shoe-1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shoe-1@2x.png"; sourceTree = "<group>"; };
+		46BDD5942554F6BE00781354 /* shoe-1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shoe-1@3x.png"; sourceTree = "<group>"; };
+		46BDD5952554F6BE00781354 /* shoe-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shoe-2.png"; sourceTree = "<group>"; };
+		46BDD5962554F6BE00781354 /* shoe-2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shoe-2@2x.png"; sourceTree = "<group>"; };
+		46BDD5972554F6BE00781354 /* shoe-2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shoe-2@3x.png"; sourceTree = "<group>"; };
+		46BDD5982554F6BE00781354 /* shoe-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shoe-3.png"; sourceTree = "<group>"; };
+		46BDD5992554F6BE00781354 /* shoe-3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shoe-3@2x.png"; sourceTree = "<group>"; };
+		46BDD59A2554F6BE00781354 /* shoe-3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shoe-3@3x.png"; sourceTree = "<group>"; };
+		46BDD59B2554F6BE00781354 /* shoe-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shoe-4.png"; sourceTree = "<group>"; };
+		46BDD59C2554F6BE00781354 /* shoe-4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shoe-4@2x.png"; sourceTree = "<group>"; };
+		46BDD59D2554F6BE00781354 /* shoe-4@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shoe-4@3x.png"; sourceTree = "<group>"; };
+		46BDD59E2554F6BE00781354 /* shoe-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shoe-5.png"; sourceTree = "<group>"; };
+		46BDD59F2554F6BE00781354 /* shoe-5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shoe-5@2x.png"; sourceTree = "<group>"; };
+		46BDD5A02554F6BE00781354 /* shoe-5@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shoe-5@3x.png"; sourceTree = "<group>"; };
+		46BDD5A12554F6BE00781354 /* shoe-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shoe-6.png"; sourceTree = "<group>"; };
+		46BDD5A22554F6BE00781354 /* shoe-6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shoe-6@2x.png"; sourceTree = "<group>"; };
+		46BDD5A32554F6BE00781354 /* shoe-6@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shoe-6@3x.png"; sourceTree = "<group>"; };
+		46BDD5A42554F6BE00781354 /* shoe-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shoe-7.png"; sourceTree = "<group>"; };
+		46BDD5A52554F6BE00781354 /* shoe-7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shoe-7@2x.png"; sourceTree = "<group>"; };
+		46BDD5A62554F6BE00781354 /* shoe-7@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shoe-7@3x.png"; sourceTree = "<group>"; };
+		46BDD5A72554F6BE00781354 /* shoe-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shoe-8.png"; sourceTree = "<group>"; };
+		46BDD5A82554F6BE00781354 /* shoe-8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shoe-8@2x.png"; sourceTree = "<group>"; };
+		46BDD5A92554F6BE00781354 /* shoe-8@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shoe-8@3x.png"; sourceTree = "<group>"; };
+		46BDD5AA2554F6BE00781354 /* shoe-9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shoe-9.png"; sourceTree = "<group>"; };
+		46BDD5AB2554F6BE00781354 /* shoe-9@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shoe-9@2x.png"; sourceTree = "<group>"; };
+		46BDD5AC2554F6BE00781354 /* shoe-9@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shoe-9@3x.png"; sourceTree = "<group>"; };
+		46BDD5AD2554F6BE00781354 /* under-armour-sc-3zero-III.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "under-armour-sc-3zero-III.png"; sourceTree = "<group>"; };
+		46BDD5AE2554F6BE00781354 /* under-armour-sc-3zero-III@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "under-armour-sc-3zero-III@2x.png"; sourceTree = "<group>"; };
+		46BDD5AF2554F6BE00781354 /* under-armour-sc-3zero-III@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "under-armour-sc-3zero-III@3x.png"; sourceTree = "<group>"; };
+		46BDD5B02554F6BE00781354 /* under-armour-spawn-low.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "under-armour-spawn-low.png"; sourceTree = "<group>"; };
+		46BDD5B12554F6BE00781354 /* under-armour-spawn-low@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "under-armour-spawn-low@2x.png"; sourceTree = "<group>"; };
+		46BDD5B22554F6BE00781354 /* under-armour-spawn-low@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "under-armour-spawn-low@3x.png"; sourceTree = "<group>"; };
+		46BDD6912558CB2000781354 /* ProductDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetail.swift; sourceTree = "<group>"; };
+		46F62E7024E0A53A00DF816B /* ShoePOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoePOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46F62E7324E0A53A00DF816B /* ShoePOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoePOSApp.swift; sourceTree = "<group>"; };
+		46F62E7524E0A53A00DF816B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		46F62E7724E0A53B00DF816B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46F62E7A24E0A53B00DF816B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		46F62E7C24E0A53B00DF816B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46F62EAF24E0A71200DF816B /* ScaledFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaledFont.swift; sourceTree = "<group>"; };
+		46F62EB024E0A71200DF816B /* CustomTextStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextStyle.swift; sourceTree = "<group>"; };
+		46F62EB224E0A71200DF816B /* AvenirNextCondensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirNextCondensed-Regular.ttf"; sourceTree = "<group>"; };
+		46F62EB324E0A71200DF816B /* AvenirNextCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirNextCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		46F62EB424E0A71200DF816B /* AvenirNextCondensed-DemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirNextCondensed-DemiBold.ttf"; sourceTree = "<group>"; };
+		46F62EB524E0A71200DF816B /* AvenirNextCondensed-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirNextCondensed-Medium.ttf"; sourceTree = "<group>"; };
+		46F62EB624E0A71200DF816B /* AvenirNextCondensed-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirNextCondensed-Heavy.ttf"; sourceTree = "<group>"; };
+		46F62EB724E0A71200DF816B /* AvenirNextCondensed-UltraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirNextCondensed-UltraLight.ttf"; sourceTree = "<group>"; };
+		46F62EB824E0A71200DF816B /* Palette+Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Palette+Color.swift"; sourceTree = "<group>"; };
+		46F62EB924E0A71200DF816B /* HorizontalTabsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalTabsView.swift; sourceTree = "<group>"; };
+		46F62EBA24E0A71200DF816B /* View+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		46F8D1E02520F3EF0080BDF7 /* VibrancyBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VibrancyBackground.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46F62E6D24E0A53A00DF816B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46BDD53D2554F6BD00781354 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				46BDD53E2554F6BD00781354 /* brand-logos */,
+				46BDD54C2554F6BD00781354 /* shoes */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		46BDD53E2554F6BD00781354 /* brand-logos */ = {
+			isa = PBXGroup;
+			children = (
+				46BDD53F2554F6BD00781354 /* adidas.png */,
+				46BDD5402554F6BD00781354 /* asics.png */,
+				46BDD5412554F6BD00781354 /* champion.png */,
+				46BDD5422554F6BD00781354 /* converse.png */,
+				46BDD5432554F6BD00781354 /* csg.png */,
+				46BDD5442554F6BD00781354 /* fila.png */,
+				46BDD5452554F6BD00781354 /* jordan.png */,
+				46BDD5462554F6BD00781354 /* new-balance.png */,
+				46BDD5472554F6BD00781354 /* new-era.png */,
+				46BDD5482554F6BD00781354 /* nike.png */,
+				46BDD5492554F6BD00781354 /* puma.png */,
+				46BDD54A2554F6BD00781354 /* reebok.png */,
+				46BDD54B2554F6BD00781354 /* under-armour.png */,
+			);
+			path = "brand-logos";
+			sourceTree = "<group>";
+		};
+		46BDD54C2554F6BD00781354 /* shoes */ = {
+			isa = PBXGroup;
+			children = (
+				46BDD54D2554F6BD00781354 /* adidas-originals-hardcourt-low.png */,
+				46BDD54E2554F6BD00781354 /* adidas-originals-hardcourt-low@2x.png */,
+				46BDD54F2554F6BD00781354 /* adidas-originals-hardcourt-low@3x.png */,
+				46BDD5502554F6BD00781354 /* adidas-originals-hardcourt.png */,
+				46BDD5512554F6BD00781354 /* adidas-originals-hardcourt@2x.png */,
+				46BDD5522554F6BD00781354 /* adidas-originals-hardcourt@3x.png */,
+				46BDD5532554F6BD00781354 /* asics-gel-kayano-26.png */,
+				46BDD5542554F6BD00781354 /* asics-gel-kayano-26@2x.png */,
+				46BDD5552554F6BD00781354 /* asics-gel-kayano-26@3x.png */,
+				46BDD5562554F6BD00781354 /* asics-gel-nimbus-22.png */,
+				46BDD5572554F6BD00781354 /* asics-gel-nimbus-22@2x.png */,
+				46BDD5582554F6BD00781354 /* asics-gel-nimbus-22@3x.png */,
+				46BDD5592554F6BD00781354 /* champion-rally-crossover.png */,
+				46BDD55A2554F6BD00781354 /* champion-rally-crossover@2x.png */,
+				46BDD55B2554F6BD00781354 /* champion-rally-crossover@3x.png */,
+				46BDD55C2554F6BD00781354 /* champion-super-court-low.png */,
+				46BDD55D2554F6BE00781354 /* champion-super-court-low@2x.png */,
+				46BDD55E2554F6BE00781354 /* champion-super-court-low@3x.png */,
+				46BDD55F2554F6BE00781354 /* converse-ctas-buckle-up-hi.png */,
+				46BDD5602554F6BE00781354 /* converse-ctas-buckle-up-hi@2x.png */,
+				46BDD5612554F6BE00781354 /* converse-ctas-buckle-up-hi@3x.png */,
+				46BDD5622554F6BE00781354 /* converse-unt1tl3d-hi.png */,
+				46BDD5632554F6BE00781354 /* converse-unt1tl3d-hi@2x.png */,
+				46BDD5642554F6BE00781354 /* converse-unt1tl3d-hi@3x.png */,
+				46BDD5652554F6BE00781354 /* fila-disruptor-2.png */,
+				46BDD5662554F6BE00781354 /* fila-disruptor-2@2x.png */,
+				46BDD5672554F6BE00781354 /* fila-disruptor-2@3x.png */,
+				46BDD5682554F6BE00781354 /* fila-grant-hill-96-mid.png */,
+				46BDD5692554F6BE00781354 /* fila-grant-hill-96-mid@2x.png */,
+				46BDD56A2554F6BE00781354 /* fila-grant-hill-96-mid@3x.png */,
+				46BDD56B2554F6BE00781354 /* jordan-max-aura-2.png */,
+				46BDD56C2554F6BE00781354 /* jordan-max-aura-2@2x.png */,
+				46BDD56D2554F6BE00781354 /* jordan-max-aura-2@3x.png */,
+				46BDD56E2554F6BE00781354 /* jordan-maxin-200.png */,
+				46BDD56F2554F6BE00781354 /* jordan-maxin-200@2x.png */,
+				46BDD5702554F6BE00781354 /* jordan-maxin-200@3x.png */,
+				46BDD5712554F6BE00781354 /* kswiss.png */,
+				46BDD5722554F6BE00781354 /* kswiss@2x.png */,
+				46BDD5732554F6BE00781354 /* kswiss@3x.png */,
+				46BDD5742554F6BE00781354 /* new-balance-801.png */,
+				46BDD5752554F6BE00781354 /* new-balance-801@2x.png */,
+				46BDD5762554F6BE00781354 /* new-balance-801@3x.png */,
+				46BDD5772554F6BE00781354 /* new-balance-omn1s-low.png */,
+				46BDD5782554F6BE00781354 /* new-balance-omn1s-low@2x.png */,
+				46BDD5792554F6BE00781354 /* new-balance-omn1s-low@3x.png */,
+				46BDD57A2554F6BE00781354 /* nike-kobe-ad-nxt.png */,
+				46BDD57B2554F6BE00781354 /* nike-kobe-ad-nxt@2x.png */,
+				46BDD57C2554F6BE00781354 /* nike-kobe-ad-nxt@3x.png */,
+				46BDD57D2554F6BE00781354 /* nike-mamba-fury.png */,
+				46BDD57E2554F6BE00781354 /* nike-mamba-fury@2x.png */,
+				46BDD57F2554F6BE00781354 /* nike-mamba-fury@3x.png */,
+				46BDD5802554F6BE00781354 /* noimage.png */,
+				46BDD5812554F6BE00781354 /* noimage@2x.png */,
+				46BDD5822554F6BE00781354 /* noimage@3x.png */,
+				46BDD5832554F6BE00781354 /* puma-calibrate-runner.png */,
+				46BDD5842554F6BE00781354 /* puma-calibrate-runner@2x.png */,
+				46BDD5852554F6BE00781354 /* puma-calibrate-runner@3x.png */,
+				46BDD5862554F6BE00781354 /* puma-suede-new-classic.png */,
+				46BDD5872554F6BE00781354 /* puma-suede-new-classic@2x.png */,
+				46BDD5882554F6BE00781354 /* puma-suede-new-classic@3x.png */,
+				46BDD5892554F6BE00781354 /* reebok-iverson-legacy.png */,
+				46BDD58A2554F6BE00781354 /* reebok-iverson-legacy@2x.png */,
+				46BDD58B2554F6BE00781354 /* reebok-iverson-legacy@3x.png */,
+				46BDD58C2554F6BE00781354 /* reebok-workout-plus-altered.png */,
+				46BDD58D2554F6BE00781354 /* reebok-workout-plus-altered@2x.png */,
+				46BDD58E2554F6BE00781354 /* reebok-workout-plus-altered@3x.png */,
+				46BDD58F2554F6BE00781354 /* shoe-1.png */,
+				46BDD5902554F6BE00781354 /* shoe-10.png */,
+				46BDD5912554F6BE00781354 /* shoe-10@2x.png */,
+				46BDD5922554F6BE00781354 /* shoe-10@3x.png */,
+				46BDD5932554F6BE00781354 /* shoe-1@2x.png */,
+				46BDD5942554F6BE00781354 /* shoe-1@3x.png */,
+				46BDD5952554F6BE00781354 /* shoe-2.png */,
+				46BDD5962554F6BE00781354 /* shoe-2@2x.png */,
+				46BDD5972554F6BE00781354 /* shoe-2@3x.png */,
+				46BDD5982554F6BE00781354 /* shoe-3.png */,
+				46BDD5992554F6BE00781354 /* shoe-3@2x.png */,
+				46BDD59A2554F6BE00781354 /* shoe-3@3x.png */,
+				46BDD59B2554F6BE00781354 /* shoe-4.png */,
+				46BDD59C2554F6BE00781354 /* shoe-4@2x.png */,
+				46BDD59D2554F6BE00781354 /* shoe-4@3x.png */,
+				46BDD59E2554F6BE00781354 /* shoe-5.png */,
+				46BDD59F2554F6BE00781354 /* shoe-5@2x.png */,
+				46BDD5A02554F6BE00781354 /* shoe-5@3x.png */,
+				46BDD5A12554F6BE00781354 /* shoe-6.png */,
+				46BDD5A22554F6BE00781354 /* shoe-6@2x.png */,
+				46BDD5A32554F6BE00781354 /* shoe-6@3x.png */,
+				46BDD5A42554F6BE00781354 /* shoe-7.png */,
+				46BDD5A52554F6BE00781354 /* shoe-7@2x.png */,
+				46BDD5A62554F6BE00781354 /* shoe-7@3x.png */,
+				46BDD5A72554F6BE00781354 /* shoe-8.png */,
+				46BDD5A82554F6BE00781354 /* shoe-8@2x.png */,
+				46BDD5A92554F6BE00781354 /* shoe-8@3x.png */,
+				46BDD5AA2554F6BE00781354 /* shoe-9.png */,
+				46BDD5AB2554F6BE00781354 /* shoe-9@2x.png */,
+				46BDD5AC2554F6BE00781354 /* shoe-9@3x.png */,
+				46BDD5AD2554F6BE00781354 /* under-armour-sc-3zero-III.png */,
+				46BDD5AE2554F6BE00781354 /* under-armour-sc-3zero-III@2x.png */,
+				46BDD5AF2554F6BE00781354 /* under-armour-sc-3zero-III@3x.png */,
+				46BDD5B02554F6BE00781354 /* under-armour-spawn-low.png */,
+				46BDD5B12554F6BE00781354 /* under-armour-spawn-low@2x.png */,
+				46BDD5B22554F6BE00781354 /* under-armour-spawn-low@3x.png */,
+			);
+			path = shoes;
+			sourceTree = "<group>";
+		};
+		46F62E6724E0A53A00DF816B = {
+			isa = PBXGroup;
+			children = (
+				46F62E7224E0A53A00DF816B /* ShoePOS */,
+				46F62E7124E0A53A00DF816B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46F62E7124E0A53A00DF816B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46F62E7024E0A53A00DF816B /* ShoePOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46F62E7224E0A53A00DF816B /* ShoePOS */ = {
+			isa = PBXGroup;
+			children = (
+				46BDD53D2554F6BD00781354 /* Assets */,
+				46F62EAD24E0A71200DF816B /* Utilities */,
+				46F62EA924E0A62A00DF816B /* Model */,
+				46F62EAA24E0A62F00DF816B /* Application */,
+				46F62EAB24E0A63600DF816B /* Views */,
+				46F62E7C24E0A53B00DF816B /* Info.plist */,
+				46F62E7924E0A53B00DF816B /* Preview Content */,
+			);
+			path = ShoePOS;
+			sourceTree = "<group>";
+		};
+		46F62E7924E0A53B00DF816B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				46F62E7A24E0A53B00DF816B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		46F62EA924E0A62A00DF816B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		46F62EAA24E0A62F00DF816B /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				46F62E7724E0A53B00DF816B /* Assets.xcassets */,
+				46F62E7324E0A53A00DF816B /* ShoePOSApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		46F62EAB24E0A63600DF816B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				46F62EAC24E0A67E00DF816B /* Supporting Views */,
+				46F62E7524E0A53A00DF816B /* ContentView.swift */,
+				4658167825524D31004477D3 /* CartView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		46F62EAC24E0A67E00DF816B /* Supporting Views */ = {
+			isa = PBXGroup;
+			children = (
+				46F62EC724E0A7C900DF816B /* Products */,
+				46F62EC624E0A7C400DF816B /* Cart */,
+			);
+			path = "Supporting Views";
+			sourceTree = "<group>";
+		};
+		46F62EAD24E0A71200DF816B /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				46F62EAE24E0A71200DF816B /* _theming */,
+				46F62EB924E0A71200DF816B /* HorizontalTabsView.swift */,
+				46F8D1E02520F3EF0080BDF7 /* VibrancyBackground.swift */,
+				46F62EBA24E0A71200DF816B /* View+Extension.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		46F62EAE24E0A71200DF816B /* _theming */ = {
+			isa = PBXGroup;
+			children = (
+				46F62EAF24E0A71200DF816B /* ScaledFont.swift */,
+				46F62EB024E0A71200DF816B /* CustomTextStyle.swift */,
+				46F62EB124E0A71200DF816B /* Font */,
+				46F62EB824E0A71200DF816B /* Palette+Color.swift */,
+			);
+			path = _theming;
+			sourceTree = "<group>";
+		};
+		46F62EB124E0A71200DF816B /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				46F62EB224E0A71200DF816B /* AvenirNextCondensed-Regular.ttf */,
+				46F62EB324E0A71200DF816B /* AvenirNextCondensed-Bold.ttf */,
+				46F62EB424E0A71200DF816B /* AvenirNextCondensed-DemiBold.ttf */,
+				46F62EB524E0A71200DF816B /* AvenirNextCondensed-Medium.ttf */,
+				46F62EB624E0A71200DF816B /* AvenirNextCondensed-Heavy.ttf */,
+				46F62EB724E0A71200DF816B /* AvenirNextCondensed-UltraLight.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		46F62EC624E0A7C400DF816B /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				4658167225524CE8004477D3 /* CartHeaderView.swift */,
+				4658167525524D08004477D3 /* CartTotalView.swift */,
+				465816912552503F004477D3 /* CartItemView.swift */,
+				4658168E25524FAE004477D3 /* SizeCartItemView.swift */,
+				465816942552506F004477D3 /* CartContentView.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		46F62EC724E0A7C900DF816B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46BDD6912558CB2000781354 /* ProductDetail.swift */,
+				4658166C25524C94004477D3 /* ProductsHeaderView.swift */,
+				4658166F25524CC5004477D3 /* ProductsView.swift */,
+				4658167B25524D88004477D3 /* ProductView.swift */,
+				4658168525524EB2004477D3 /* ProductsContentView.swift */,
+				4658168825524F01004477D3 /* StepperView.swift */,
+				4658168B25524F3A004477D3 /* ShoePOSButton.swift */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46F62E6F24E0A53A00DF816B /* ShoePOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46F62E7F24E0A53B00DF816B /* Build configuration list for PBXNativeTarget "ShoePOS" */;
+			buildPhases = (
+				46F62E6C24E0A53A00DF816B /* Sources */,
+				46F62E6D24E0A53A00DF816B /* Frameworks */,
+				46F62E6E24E0A53A00DF816B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShoePOS;
+			productName = ShoePOS;
+			productReference = 46F62E7024E0A53A00DF816B /* ShoePOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46F62E6824E0A53A00DF816B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					46F62E6F24E0A53A00DF816B = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 46F62E6B24E0A53A00DF816B /* Build configuration list for PBXProject "ShoePOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46F62E6724E0A53A00DF816B;
+			productRefGroup = 46F62E7124E0A53A00DF816B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46F62E6F24E0A53A00DF816B /* ShoePOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46F62E6E24E0A53A00DF816B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46BDD5C32554F6BE00781354 /* adidas-originals-hardcourt.png in Resources */,
+				46BDD5D72554F6BE00781354 /* converse-unt1tl3d-hi@3x.png in Resources */,
+				46BDD6252554F6BE00781354 /* under-armour-spawn-low@3x.png in Resources */,
+				46BDD5B62554F6BE00781354 /* converse.png in Resources */,
+				46BDD5E42554F6BE00781354 /* kswiss.png in Resources */,
+				46F62EC124E0A71200DF816B /* AvenirNextCondensed-Heavy.ttf in Resources */,
+				46BDD60E2554F6BE00781354 /* shoe-4.png in Resources */,
+				46BDD5D12554F6BE00781354 /* champion-super-court-low@3x.png in Resources */,
+				46BDD5CB2554F6BE00781354 /* asics-gel-nimbus-22@3x.png in Resources */,
+				46BDD5E02554F6BE00781354 /* jordan-max-aura-2@3x.png in Resources */,
+				46BDD5D92554F6BE00781354 /* fila-disruptor-2@2x.png in Resources */,
+				46BDD60F2554F6BE00781354 /* shoe-4@2x.png in Resources */,
+				46BDD6142554F6BE00781354 /* shoe-6.png in Resources */,
+				46BDD5DD2554F6BE00781354 /* fila-grant-hill-96-mid@3x.png in Resources */,
+				46BDD5BC2554F6BE00781354 /* nike.png in Resources */,
+				46BDD5F12554F6BE00781354 /* nike-mamba-fury@2x.png in Resources */,
+				46BDD5C12554F6BE00781354 /* adidas-originals-hardcourt-low@2x.png in Resources */,
+				46BDD6082554F6BE00781354 /* shoe-2.png in Resources */,
+				46BDD60D2554F6BE00781354 /* shoe-3@3x.png in Resources */,
+				46BDD5F72554F6BE00781354 /* puma-calibrate-runner@2x.png in Resources */,
+				46BDD5D02554F6BE00781354 /* champion-super-court-low@2x.png in Resources */,
+				46BDD6062554F6BE00781354 /* shoe-1@2x.png in Resources */,
+				46BDD5C92554F6BE00781354 /* asics-gel-nimbus-22.png in Resources */,
+				46BDD5D22554F6BE00781354 /* converse-ctas-buckle-up-hi.png in Resources */,
+				46BDD5B42554F6BE00781354 /* asics.png in Resources */,
+				46BDD5C42554F6BE00781354 /* adidas-originals-hardcourt@2x.png in Resources */,
+				46BDD6162554F6BE00781354 /* shoe-6@3x.png in Resources */,
+				46BDD5D52554F6BE00781354 /* converse-unt1tl3d-hi.png in Resources */,
+				46F62EBD24E0A71200DF816B /* AvenirNextCondensed-Regular.ttf in Resources */,
+				46BDD6222554F6BE00781354 /* under-armour-sc-3zero-III@3x.png in Resources */,
+				46BDD5BE2554F6BE00781354 /* reebok.png in Resources */,
+				46BDD61F2554F6BE00781354 /* shoe-9@3x.png in Resources */,
+				46BDD5DB2554F6BE00781354 /* fila-grant-hill-96-mid.png in Resources */,
+				46BDD5EC2554F6BE00781354 /* new-balance-omn1s-low@3x.png in Resources */,
+				46BDD5B32554F6BE00781354 /* adidas.png in Resources */,
+				46BDD5F32554F6BE00781354 /* noimage.png in Resources */,
+				46BDD6022554F6BE00781354 /* shoe-1.png in Resources */,
+				46BDD5CE2554F6BE00781354 /* champion-rally-crossover@3x.png in Resources */,
+				46BDD6182554F6BE00781354 /* shoe-7@2x.png in Resources */,
+				46BDD6112554F6BE00781354 /* shoe-5.png in Resources */,
+				46BDD5F22554F6BE00781354 /* nike-mamba-fury@3x.png in Resources */,
+				46BDD5CC2554F6BE00781354 /* champion-rally-crossover.png in Resources */,
+				46BDD6102554F6BE00781354 /* shoe-4@3x.png in Resources */,
+				46F62EC224E0A71200DF816B /* AvenirNextCondensed-UltraLight.ttf in Resources */,
+				46BDD5C72554F6BE00781354 /* asics-gel-kayano-26@2x.png in Resources */,
+				46BDD5D82554F6BE00781354 /* fila-disruptor-2.png in Resources */,
+				46BDD5E62554F6BE00781354 /* kswiss@3x.png in Resources */,
+				46BDD5B72554F6BE00781354 /* csg.png in Resources */,
+				46BDD5E22554F6BE00781354 /* jordan-maxin-200@2x.png in Resources */,
+				46BDD5F02554F6BE00781354 /* nike-mamba-fury.png in Resources */,
+				46BDD5E52554F6BE00781354 /* kswiss@2x.png in Resources */,
+				46BDD6042554F6BE00781354 /* shoe-10@2x.png in Resources */,
+				46BDD61A2554F6BE00781354 /* shoe-8.png in Resources */,
+				46BDD5FB2554F6BE00781354 /* puma-suede-new-classic@3x.png in Resources */,
+				46BDD6212554F6BE00781354 /* under-armour-sc-3zero-III@2x.png in Resources */,
+				46BDD6032554F6BE00781354 /* shoe-10.png in Resources */,
+				46BDD6172554F6BE00781354 /* shoe-7.png in Resources */,
+				46BDD5B92554F6BE00781354 /* jordan.png in Resources */,
+				46BDD5BB2554F6BE00781354 /* new-era.png in Resources */,
+				46F62EBE24E0A71200DF816B /* AvenirNextCondensed-Bold.ttf in Resources */,
+				46BDD5D32554F6BE00781354 /* converse-ctas-buckle-up-hi@2x.png in Resources */,
+				46BDD5EA2554F6BE00781354 /* new-balance-omn1s-low.png in Resources */,
+				46BDD5B52554F6BE00781354 /* champion.png in Resources */,
+				46BDD5D42554F6BE00781354 /* converse-ctas-buckle-up-hi@3x.png in Resources */,
+				46BDD5F82554F6BE00781354 /* puma-calibrate-runner@3x.png in Resources */,
+				46BDD6192554F6BE00781354 /* shoe-7@3x.png in Resources */,
+				46BDD5D62554F6BE00781354 /* converse-unt1tl3d-hi@2x.png in Resources */,
+				46BDD5E12554F6BE00781354 /* jordan-maxin-200.png in Resources */,
+				46BDD5DC2554F6BE00781354 /* fila-grant-hill-96-mid@2x.png in Resources */,
+				46BDD5C52554F6BE00781354 /* adidas-originals-hardcourt@3x.png in Resources */,
+				46BDD5BD2554F6BE00781354 /* puma.png in Resources */,
+				46BDD5FE2554F6BE00781354 /* reebok-iverson-legacy@3x.png in Resources */,
+				46BDD60A2554F6BE00781354 /* shoe-2@3x.png in Resources */,
+				46BDD5C82554F6BE00781354 /* asics-gel-kayano-26@3x.png in Resources */,
+				46BDD6072554F6BE00781354 /* shoe-1@3x.png in Resources */,
+				46F62EBF24E0A71200DF816B /* AvenirNextCondensed-DemiBold.ttf in Resources */,
+				46BDD5EE2554F6BE00781354 /* nike-kobe-ad-nxt@2x.png in Resources */,
+				46BDD5F42554F6BE00781354 /* noimage@2x.png in Resources */,
+				46BDD5FA2554F6BE00781354 /* puma-suede-new-classic@2x.png in Resources */,
+				46BDD61C2554F6BE00781354 /* shoe-8@3x.png in Resources */,
+				46BDD5DE2554F6BE00781354 /* jordan-max-aura-2.png in Resources */,
+				46BDD5E72554F6BE00781354 /* new-balance-801.png in Resources */,
+				46BDD5E92554F6BE00781354 /* new-balance-801@3x.png in Resources */,
+				46F62E7B24E0A53B00DF816B /* Preview Assets.xcassets in Resources */,
+				46BDD5FF2554F6BE00781354 /* reebok-workout-plus-altered.png in Resources */,
+				46BDD5F52554F6BE00781354 /* noimage@3x.png in Resources */,
+				46BDD5FC2554F6BE00781354 /* reebok-iverson-legacy.png in Resources */,
+				46BDD5FD2554F6BE00781354 /* reebok-iverson-legacy@2x.png in Resources */,
+				46BDD6152554F6BE00781354 /* shoe-6@2x.png in Resources */,
+				46BDD5B82554F6BE00781354 /* fila.png in Resources */,
+				46F62E7824E0A53B00DF816B /* Assets.xcassets in Resources */,
+				46BDD6232554F6BE00781354 /* under-armour-spawn-low.png in Resources */,
+				46BDD5CF2554F6BE00781354 /* champion-super-court-low.png in Resources */,
+				46BDD6002554F6BE00781354 /* reebok-workout-plus-altered@2x.png in Resources */,
+				46BDD5CD2554F6BE00781354 /* champion-rally-crossover@2x.png in Resources */,
+				46F62EC024E0A71200DF816B /* AvenirNextCondensed-Medium.ttf in Resources */,
+				46BDD6202554F6BE00781354 /* under-armour-sc-3zero-III.png in Resources */,
+				46BDD60B2554F6BE00781354 /* shoe-3.png in Resources */,
+				46BDD5DA2554F6BE00781354 /* fila-disruptor-2@3x.png in Resources */,
+				46BDD6242554F6BE00781354 /* under-armour-spawn-low@2x.png in Resources */,
+				46BDD6012554F6BE00781354 /* reebok-workout-plus-altered@3x.png in Resources */,
+				46BDD5BA2554F6BE00781354 /* new-balance.png in Resources */,
+				46BDD5F92554F6BE00781354 /* puma-suede-new-classic.png in Resources */,
+				46BDD5CA2554F6BE00781354 /* asics-gel-nimbus-22@2x.png in Resources */,
+				46BDD5EB2554F6BE00781354 /* new-balance-omn1s-low@2x.png in Resources */,
+				46BDD5DF2554F6BE00781354 /* jordan-max-aura-2@2x.png in Resources */,
+				46BDD6132554F6BE00781354 /* shoe-5@3x.png in Resources */,
+				46BDD61D2554F6BE00781354 /* shoe-9.png in Resources */,
+				46BDD6122554F6BE00781354 /* shoe-5@2x.png in Resources */,
+				46BDD5C02554F6BE00781354 /* adidas-originals-hardcourt-low.png in Resources */,
+				46BDD5ED2554F6BE00781354 /* nike-kobe-ad-nxt.png in Resources */,
+				46BDD5C22554F6BE00781354 /* adidas-originals-hardcourt-low@3x.png in Resources */,
+				46BDD5F62554F6BE00781354 /* puma-calibrate-runner.png in Resources */,
+				46BDD6092554F6BE00781354 /* shoe-2@2x.png in Resources */,
+				46BDD6052554F6BE00781354 /* shoe-10@3x.png in Resources */,
+				46BDD5BF2554F6BE00781354 /* under-armour.png in Resources */,
+				46BDD61B2554F6BE00781354 /* shoe-8@2x.png in Resources */,
+				46BDD5C62554F6BE00781354 /* asics-gel-kayano-26.png in Resources */,
+				46BDD5E82554F6BE00781354 /* new-balance-801@2x.png in Resources */,
+				46BDD5E32554F6BE00781354 /* jordan-maxin-200@3x.png in Resources */,
+				46BDD5EF2554F6BE00781354 /* nike-kobe-ad-nxt@3x.png in Resources */,
+				46BDD60C2554F6BE00781354 /* shoe-3@2x.png in Resources */,
+				46BDD61E2554F6BE00781354 /* shoe-9@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46F62E6C24E0A53A00DF816B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F62EC324E0A71200DF816B /* Palette+Color.swift in Sources */,
+				46F8D1E12520F3EF0080BDF7 /* VibrancyBackground.swift in Sources */,
+				4658168F25524FAE004477D3 /* SizeCartItemView.swift in Sources */,
+				4658167925524D31004477D3 /* CartView.swift in Sources */,
+				4658168C25524F3A004477D3 /* ShoePOSButton.swift in Sources */,
+				46F62EBB24E0A71200DF816B /* ScaledFont.swift in Sources */,
+				4658167C25524D88004477D3 /* ProductView.swift in Sources */,
+				46F62EC424E0A71200DF816B /* HorizontalTabsView.swift in Sources */,
+				4658167025524CC5004477D3 /* ProductsView.swift in Sources */,
+				4658166D25524C94004477D3 /* ProductsHeaderView.swift in Sources */,
+				46F62EBC24E0A71200DF816B /* CustomTextStyle.swift in Sources */,
+				4658167625524D08004477D3 /* CartTotalView.swift in Sources */,
+				4658168925524F01004477D3 /* StepperView.swift in Sources */,
+				46F62E7624E0A53A00DF816B /* ContentView.swift in Sources */,
+				46F62EC524E0A71200DF816B /* View+Extension.swift in Sources */,
+				4658168625524EB2004477D3 /* ProductsContentView.swift in Sources */,
+				465816952552506F004477D3 /* CartContentView.swift in Sources */,
+				46BDD6922558CB2100781354 /* ProductDetail.swift in Sources */,
+				46F62E7424E0A53A00DF816B /* ShoePOSApp.swift in Sources */,
+				4658167325524CE8004477D3 /* CartHeaderView.swift in Sources */,
+				465816922552503F004477D3 /* CartItemView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		46F62E7D24E0A53B00DF816B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46F62E7E24E0A53B00DF816B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46F62E8024E0A53B00DF816B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ShoePOS/Preview Content\"";
+				DEVELOPMENT_TEAM = BCKVL9BZPW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ShoePOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = academy.cocoa.ShoePOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		46F62E8124E0A53B00DF816B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ShoePOS/Preview Content\"";
+				DEVELOPMENT_TEAM = BCKVL9BZPW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ShoePOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = academy.cocoa.ShoePOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46F62E6B24E0A53A00DF816B /* Build configuration list for PBXProject "ShoePOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F62E7D24E0A53B00DF816B /* Debug */,
+				46F62E7E24E0A53B00DF816B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46F62E7F24E0A53B00DF816B /* Build configuration list for PBXNativeTarget "ShoePOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F62E8024E0A53B00DF816B /* Debug */,
+				46F62E8124E0A53B00DF816B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46F62E6824E0A53A00DF816B /* Project object */;
+}

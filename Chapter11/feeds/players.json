@@ -1,0 +1,650 @@
+[
+  {
+    "first_name": "Avery",
+    "last_name": "Bradley",
+    "jersey": "11",
+    "image": "bradley",
+    "quick_stats": [
+      {
+        "id": "30000901",
+        "key": "points_per_game",
+        "name": "PPG",
+        "value": "0.6",
+        "order_by": 1
+      },
+      {
+        "id": "30000902",
+        "key": "assists_per_game",
+        "name": "APG",
+        "value": "2.3",
+        "order_by": 2
+      },
+      {
+        "id": "30000903",
+        "key": "3pt_percent_per_game",
+        "name": "3P%",
+        "value": "36.4",
+        "order_by": 3
+      },
+      {
+        "id": "30000904",
+        "key": "field_goal_percent",
+        "name": "FG%",
+        "value": "44.4",
+        "order_by": 4
+      }
+    ]
+  },
+  {
+    "first_name": "Kentavious",
+    "last_name": "Caldwell-Pope",
+    "jersey": "1",
+    "image": "caldwell-pope",
+    "quick_stats": [
+      {
+        "id": "30000901",
+        "key": "points_per_game",
+        "name": "PPG",
+        "value": "9.5",
+        "order_by": 1
+      },
+      {
+        "id": "30000902",
+        "key": "assists_per_game",
+        "name": "APG",
+        "value": "1.7",
+        "order_by": 2
+      },
+      {
+        "id": "30000903",
+        "key": "3pt_percent_per_game",
+        "name": "3P%",
+        "value": "39.4",
+        "order_by": 3
+      },
+      {
+        "id": "30000904",
+        "key": "field_goal_percent",
+        "name": "FG%",
+        "value": "47.2",
+        "order_by": 4
+      }
+    ]
+  },
+  {
+    "first_name": "Anthony",
+    "last_name": "Davis",
+    "jersey": "3",
+    "image": "davis",
+    "quick_stats": [
+      {
+        "id": "30000901",
+        "key": "points_per_game",
+        "name": "PPG",
+        "value": "26.7",
+        "order_by": 1
+      },
+      {
+        "id": "30000902",
+        "key": "assists_per_game",
+        "name": "APG",
+        "value": "3.1",
+        "order_by": 2
+      },
+      {
+        "id": "30000903",
+        "key": "3pt_percent_per_game",
+        "name": "3P%",
+        "value": "33.5",
+        "order_by": 3
+      },
+      {
+        "id": "30000904",
+        "key": "field_goal_percent",
+        "name": "FG%",
+        "value": "84.5",
+        "order_by": 4
+      }
+    ]
+  },
+  {
+    "first_name": "Jared",
+    "last_name": "Dudley",
+    "jersey": "10",
+    "image": "dudley",
+    "quick_stats": [
+      {
+        "id": "30000901",
+        "key": "points_per_game",
+        "name": "PPG",
+        "value": "1.5",
+        "order_by": 1
+      },
+      {
+        "id": "30000902",
+        "key": "assists_per_game",
+        "name": "APG",
+        "value": "0.5",
+        "order_by": 2
+      },
+      {
+        "id": "30000903",
+        "key": "3pt_percent_per_game",
+        "name": "3P%",
+        "value": "47.1",
+        "order_by": 3
+      },
+      {
+        "id": "30000904",
+        "key": "field_goal_percent",
+        "name": "FG%",
+        "value": "40.0",
+        "order_by": 4
+      }
+    ]
+  },
+  {
+    "first_name": "Danny",
+    "last_name": "Green",
+    "jersey": "14",
+    "image": "green",
+    "quick_stats": [
+      {
+        "id": "30000901",
+        "key": "points_per_game",
+        "name": "PPG",
+        "value": "8.2",
+        "order_by": 1
+      },
+      {
+        "id": "30000902",
+        "key": "assists_per_game",
+        "name": "APG",
+        "value": "11.4",
+        "order_by": 2
+      },
+      {
+        "id": "30000903",
+        "key": "3pt_percent_per_game",
+        "name": "3P%",
+        "value": "37.8",
+        "order_by": 3
+      },
+      {
+        "id": "30000904",
+        "key": "field_goal_percent",
+        "name": "FG%",
+        "value": "41.9",
+        "order_by": 4
+      }
+    ]
+  },
+  {
+    "first_name": "Dwight",
+    "last_name": "Howard",
+    "jersey": "39",
+    "image": "howard",
+    "quick_stats": [
+      {
+        "id": "30000901",
+        "key": "points_per_game",
+        "name": "PPG",
+        "value": "7.5",
+        "order_by": 1
+      },
+      {
+        "id": "30000902",
+        "key": "assists_per_game",
+        "name": "APG",
+        "value": "0.7",
+        "order_by": 2
+      },
+      {
+        "id": "30000903",
+        "key": "3pt_percent_per_game",
+        "name": "3P%",
+        "value": "60.0",
+        "order_by": 3
+      },
+      {
+        "id": "30000904",
+        "key": "field_goal_percent",
+        "name": "FG%",
+        "value": "73.2",
+        "order_by": 4
+      }
+    ]
+  },
+  {
+    "first_name": "LeBron",
+    "last_name": "James",
+    "jersey": "23",
+    "image": "james",
+    "quick_stats": [
+      {
+        "id": "30000901",
+        "key": "points_per_game",
+        "name": "PPG",
+        "value": "25.7",
+        "order_by": 1
+      },
+      {
+        "id": "30000902",
+        "key": "assists_per_game",
+        "name": "APG",
+        "value": "10.6",
+        "order_by": 2
+      },
+      {
+        "id": "30000903",
+        "key": "3pt_percent_per_game",
+        "name": "3P%",
+        "value": "34.9",
+        "order_by": 3
+      },
+      {
+        "id": "30000904",
+        "key": "field_goal_percent",
+        "name": "FG%",
+        "value": "49.8",
+        "order_by": 4
+      }
+    ]
+  },
+  {
+    "first_name": "JaVale",
+    "last_name": "McGee",
+    "jersey": "7",
+    "image": "mcgee",
+    "quick_stats": [
+      {
+        "id": "30000901",
+        "key": "points_per_game",
+        "name": "PPG",
+        "value": "6.8",
+        "order_by": 1
+      },
+      {
+        "id": "30000902",
+        "key": "assists_per_game",
+        "name": "APG",
+        "value": "0.6",
+        "order_by": 2
+      },
+      {
+        "id": "30000903",
+        "key": "3pt_percent_per_game",
+        "name": "3P%",
+        "value": "50.0",
+        "order_by": 3
+      },
+      {
+        "id": "30000904",
+        "key": "field_goal_percent",
+        "name": "FG%",
+        "value": "64.0",
+        "order_by": 4
+      }
+    ]
+  },
+  {
+    "first_name": "Markieff",
+    "last_name": "Morris",
+    "jersey": "88",
+    "image": "morris",
+    "quick_stats": [
+      {
+        "id": "30000901",
+        "key": "points_per_game",
+        "name": "PPG",
+        "value": "10.1",
+        "order_by": 1
+      },
+      {
+        "id": "30000902",
+        "key": "assists_per_game",
+        "name": "APG",
+        "value": "1.4",
+        "order_by": 2
+      },
+      {
+        "id": "30000903",
+        "key": "3pt_percent_per_game",
+        "name": "3P%",
+        "value": "38.6",
+        "order_by": 3
+      },
+      {
+        "id": "30000904",
+        "key": "field_goal_percent",
+        "name": "FG%",
+        "value": "44.5",
+        "order_by": 4
+      }
+    ]
+  },
+  {
+    "first_name": "Rajon",
+    "last_name": "Rondo",
+    "jersey": "9",
+    "image": "rondo",
+    "quick_stats": [
+      {
+        "id": "30000901",
+        "key": "points_per_game",
+        "name": "PPG",
+        "value": "7.1",
+        "order_by": 1
+      },
+      {
+        "id": "30000902",
+        "key": "assists_per_game",
+        "name": "APG",
+        "value": "5.0",
+        "order_by": 2
+      },
+      {
+        "id": "30000903",
+        "key": "3pt_percent_per_game",
+        "name": "3P%",
+        "value": "32.8",
+        "order_by": 3
+      },
+      {
+        "id": "30000904",
+        "key": "field_goal_percent",
+        "name": "FG%",
+        "value": "41.8",
+        "order_by": 4
+      }
+    ]
+  },
+  {
+    "first_name": "JR",
+    "last_name": "Smith",
+    "jersey": "21",
+    "image": "smith",
+    "quick_stats": [
+      {
+        "id": "30000901",
+        "key": "points_per_game",
+        "name": "PPG",
+        "value": "6.7",
+        "order_by": 1
+      },
+      {
+        "id": "30000902",
+        "key": "assists_per_game",
+        "name": "APG",
+        "value": "1.9",
+        "order_by": 2
+      },
+      {
+        "id": "30000903",
+        "key": "3pt_percent_per_game",
+        "name": "3P%",
+        "value": "30.8",
+        "order_by": 3
+      },
+      {
+        "id": "30000904",
+        "key": "field_goal_percent",
+        "name": "FG%",
+        "value": "34.2",
+        "order_by": 4
+      }
+    ]
+  },
+  {
+    "first_name": "Dion",
+    "last_name": "Waiters",
+    "jersey": "18",
+    "image": "waiters",
+    "quick_stats": [
+      {
+        "id": "30000901",
+        "key": "points_per_game",
+        "name": "PPG",
+        "value": "9.3",
+        "order_by": 1
+      },
+      {
+        "id": "30000902",
+        "key": "assists_per_game",
+        "name": "APG",
+        "value": "1.0",
+        "order_by": 2
+      },
+      {
+        "id": "30000903",
+        "key": "3pt_percent_per_game",
+        "name": "3P%",
+        "value": "47.1",
+        "order_by": 3
+      },
+      {
+        "id": "30000904",
+        "key": "field_goal_percent",
+        "name": "FG%",
+        "value": "38.5",
+        "order_by": 4
+      }
+    ]
+  },
+  {
+    "first_name": "Quinn",
+    "last_name": "Cook",
+    "jersey": "28",
+    "image": "cook",
+    "quick_stats": [
+      {
+        "id": "30000901",
+        "key": "points_per_game",
+        "name": "PPG",
+        "value": "4.8",
+        "order_by": 1
+      },
+      {
+        "id": "30000902",
+        "key": "assists_per_game",
+        "name": "APG",
+        "value": "1.1",
+        "order_by": 2
+      },
+      {
+        "id": "30000903",
+        "key": "3pt_percent_per_game",
+        "name": "3P%",
+        "value": "37.9",
+        "order_by": 3
+      },
+      {
+        "id": "30000904",
+        "key": "field_goal_percent",
+        "name": "FG%",
+        "value": "43.9",
+        "order_by": 4
+      }
+    ]
+  },
+  {
+    "first_name": "Alex",
+    "last_name": "Caruso",
+    "jersey": "4",
+    "image": "caruso",
+    "quick_stats": [
+      {
+        "id": "30000901",
+        "key": "points_per_game",
+        "name": "PPG",
+        "value": "5.4",
+        "order_by": 1
+      },
+      {
+        "id": "30000902",
+        "key": "assists_per_game",
+        "name": "APG",
+        "value": "1.8",
+        "order_by": 2
+      },
+      {
+        "id": "30000903",
+        "key": "3pt_percent_per_game",
+        "name": "3P%",
+        "value": "35.5",
+        "order_by": 3
+      },
+      {
+        "id": "30000904",
+        "key": "field_goal_percent",
+        "name": "FG%",
+        "value": "42.3",
+        "order_by": 4
+      }
+    ]
+  },
+  {
+    "first_name": "Kyle",
+    "last_name": "Kuzma",
+    "jersey": "0",
+    "image": "kuzma",
+    "quick_stats": [
+      {
+        "id": "30000901",
+        "key": "points_per_game",
+        "name": "PPG",
+        "value": "12.5",
+        "order_by": 1
+      },
+      {
+        "id": "30000902",
+        "key": "assists_per_game",
+        "name": "APG",
+        "value": "1.3",
+        "order_by": 2
+      },
+      {
+        "id": "30000903",
+        "key": "3pt_percent_per_game",
+        "name": "3P%",
+        "value": "29.7",
+        "order_by": 3
+      },
+      {
+        "id": "30000904",
+        "key": "field_goal_percent",
+        "name": "FG%",
+        "value": "43.2",
+        "order_by": 4
+      }
+    ]
+  },
+  {
+    "first_name": "Kostas",
+    "last_name": "Antetokounmpo",
+    "jersey": "37",
+    "image": "antetokounmpo",
+    "quick_stats": [
+      {
+        "id": "30000901",
+        "key": "points_per_game",
+        "name": "PPG",
+        "value": "0.0",
+        "order_by": 1
+      },
+      {
+        "id": "30000902",
+        "key": "assists_per_game",
+        "name": "APG",
+        "value": "0.3",
+        "order_by": 2
+      },
+      {
+        "id": "30000903",
+        "key": "3pt_percent_per_game",
+        "name": "3P%",
+        "value": "0.0",
+        "order_by": 3
+      },
+      {
+        "id": "30000904",
+        "key": "field_goal_percent",
+        "name": "FG%",
+        "value": "0.0",
+        "order_by": 4
+      }
+    ]
+  },
+  {
+    "first_name": "Talen",
+    "last_name": "Horton-Tucker",
+    "jersey": "5",
+    "image": "horton-tucker",
+    "quick_stats": [
+      {
+        "id": "30000901",
+        "key": "points_per_game",
+        "name": "PPG",
+        "value": "0.0",
+        "order_by": 1
+      },
+      {
+        "id": "30000902",
+        "key": "assists_per_game",
+        "name": "APG",
+        "value": "1.0",
+        "order_by": 2
+      },
+      {
+        "id": "30000903",
+        "key": "3pt_percent_per_game",
+        "name": "3P%",
+        "value": "0.0",
+        "order_by": 3
+      },
+      {
+        "id": "30000904",
+        "key": "field_goal_percent",
+        "name": "FG%",
+        "value": "0.0",
+        "order_by": 4
+      }
+    ]
+  },
+  {
+    "first_name": "Devontae",
+    "last_name": "Cacok",
+    "jersey": "12",
+    "image": "cacok",
+    "quick_stats": [
+      {
+        "id": "30000901",
+        "key": "points_per_game",
+        "name": "PPG",
+        "value": "0.0",
+        "order_by": 1
+      },
+      {
+        "id": "30000902",
+        "key": "assists_per_game",
+        "name": "APG",
+        "value": "0.0",
+        "order_by": 2
+      },
+      {
+        "id": "30000903",
+        "key": "3pt_percent_per_game",
+        "name": "3P%",
+        "value": "0.0",
+        "order_by": 3
+      },
+      {
+        "id": "30000904",
+        "key": "field_goal_percent",
+        "name": "FG%",
+        "value": "0.0",
+        "order_by": 4
+      }
+    ]
+  }
+]

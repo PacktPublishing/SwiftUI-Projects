@@ -4,7 +4,7 @@
 
 This is the code repository for [SwiftUI Projects](https://www.packtpub.com/product/swiftui-projects/9781839214660), published by Packt.
 
-**Build six real-world, cross-platform mobile applications using SwiftUI from scratch**
+**Build six real-world, cross-platform mobile applications using Swift, Xcode 12 and SwiftUI**
 
 ## What is this book about?
 This practical guide involves six real-world projects built from scratch, with two projects each for iPhone, iPad, and watchOS, built using Swift programming and Xcode. Starting with the basics of SwiftUI, you’ll gradually delve into building these projects. You’ll learn the fundamental concepts of SwiftUI by working with views, layouts, and dynamic types. 

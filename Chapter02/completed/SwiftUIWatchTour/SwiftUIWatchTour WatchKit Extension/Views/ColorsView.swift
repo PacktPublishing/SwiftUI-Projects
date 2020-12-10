@@ -21,7 +21,7 @@ struct ColorsView: View {
     var body: some View {
         List {
             ForEach(colors) { color in // Step 1
-                NavigationLink(destination: EmptyView()) { // Step 2
+                NavigationLink(destination: Text(color.name)) { // Step 2
                     Text(color.name) // Step 3
                 }
             }

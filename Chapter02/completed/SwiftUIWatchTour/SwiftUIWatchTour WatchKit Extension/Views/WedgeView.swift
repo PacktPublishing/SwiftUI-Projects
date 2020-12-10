@@ -25,11 +25,11 @@ struct WedgeChartView: View {
                     WedgeShape(
                         startAngle: Angle(degrees: self.wedges[$0].startAngle),
                         endAngle: Angle(degrees: self.wedges[$0].endAngle),
-                        lineWidth: 40
+                        lineWidth: 24
                     )
                     .foregroundColor(self.wedges[$0].color)
                 }
-            }.frame(width: 130)
+            }.frame(width: 140)
         }
     }
 }

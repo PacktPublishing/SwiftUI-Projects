@@ -36,6 +36,6 @@ struct CapsuleView: View {
 
 struct CapsuleView_Previews: PreviewProvider {
     static var previews: some View {
-        CapsuleView(value: 75, day: "M")
+        CapsuleView(value: 75, day: "S")
     }
 }

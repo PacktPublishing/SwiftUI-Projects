@@ -17,15 +17,16 @@ struct ColorsView: View {
                                         ColorModel(name: "Yellow")
     ]
 
+    
     var body: some View {
         List {
-            ForEach(colors) { color in
-                NavigationLink(destination: Text(color.name)) {
-                    Text(color.name)
+            ForEach(colors) { color in // Step 1
+                NavigationLink(destination: EmptyView()) { // Step 2
+                    Text(color.name) // Step 3
                 }
             }
-            .navigationTitle("Colors")
         }
+
     }
 }
 

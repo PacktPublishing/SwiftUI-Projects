@@ -9,11 +9,11 @@ import SwiftUI
 
 struct ChartsView: View {
     var body: some View {
-TabView {
-    BarChartView()
-    WedgeChartView()
-    RingView()
-}.tabViewStyle(PageTabViewStyle(indexDisplayMode: .automatic))
+        TabView {
+            BarChartView()
+            WedgeChartView()
+            RingView()
+        }.tabViewStyle(PageTabViewStyle(indexDisplayMode: .automatic))
     }
 }
 

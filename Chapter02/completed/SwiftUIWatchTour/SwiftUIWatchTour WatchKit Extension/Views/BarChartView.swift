@@ -11,34 +11,16 @@ import SwiftUI
 struct BarChartView: View {
     var body: some View {
         VStack(spacing: 0) {
-            // Header
-            HStack(spacing: 0) {
-                Text("BAR")
-                    .fontWeight(.heavy)
-                Text("CHART")
-                    .fontWeight(.thin)
+            HeaderView(title: "BAR", subtitle: "CHART")
+            HStack(alignment: .bottom) {
+                CapsuleView(value: 65, day: "S")
+                CapsuleView(value: 70, day: "M")
+                CapsuleView(value: 50, day: "T")
+                CapsuleView(value: 25, day: "W")
+                CapsuleView(value: 40, day: "T")
+                CapsuleView(value: 25, day: "F")
+                CapsuleView(value: 40, day: "S")
             }
-            .foregroundColor(Color.red)
-            
-            // Add next step here
-            HStack(alignment: .bottom, spacing: 2) {
-                VStack {
-                    VStack(spacing: 2) {
-                        Text("99")
-                            .font(.system(size: 11))
-                            .foregroundColor(Color(.gray))
-                        Capsule()
-                            .frame(width: 10, height: 100)
-                            .foregroundColor(Color(.red))
-                    }
-
-                    Text("M")
-                        .font(.system(size: 12))
-                        .fontWeight(.black)
-                        .padding(.top, 0)
-                }
-            }
-            .padding(.top, 10)
         }
     }
 }

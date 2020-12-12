@@ -23,7 +23,7 @@ struct DraftRoundCardView: View {
                         self.isShowingDetail.toggle()
                     }
                     .sheet(isPresented: self.$isShowingDetail) {
-                        DraftPlayerDetailView()
+                        DraftPlayerDetailView(prospect: self.picks[Int(self.currentIndex)].prospect)
                     }
             }
         }
@@ -36,6 +36,8 @@ struct DraftRoundCardView: View {
             sensitivity: .low
         )
     }
+    
+    
 }
 
 struct DraftRoundCardView_Previews: PreviewProvider {

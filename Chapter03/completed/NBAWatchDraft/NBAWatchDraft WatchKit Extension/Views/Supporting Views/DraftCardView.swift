@@ -23,7 +23,7 @@ struct DraftCardView: View {
             Image(prospect.team.name.lowercased())
                 .frame(height: 56)
             Spacer()
-            Text(String(format: "%02d", 1))
+            Text(String(format: "%02d", prospect.draftPosition))
                 .custom(font: .bold, size: 50)
         }
         .frame(height: 48)

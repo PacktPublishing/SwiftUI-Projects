@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		46BE85832532132A003FBF44 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BE85822532132A003FBF44 /* API.swift */; };
+		4659E1F12587D54D00D2E2F0 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4659E1EF2587D54D00D2E2F0 /* API.swift */; };
+		4659E1F22587D54D00D2E2F0 /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4659E1F02587D54D00D2E2F0 /* OrderViewModel.swift */; };
 		46E505CE2530AA4200666540 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46E505CD2530AA4200666540 /* Preview Assets.xcassets */; };
 		46E5060A2530AAB300666540 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46E505D82530AAB300666540 /* Assets.xcassets */; };
 		46E5060D2530AAB300666540 /* TeslaOrderFormApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E505DC2530AAB300666540 /* TeslaOrderFormApp.swift */; };
@@ -17,7 +18,6 @@
 		46E506122530AAB300666540 /* CarInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E505E42530AAB300666540 /* CarInfoView.swift */; };
 		46E506132530AAB300666540 /* CarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E505E52530AAB300666540 /* CarDetailView.swift */; };
 		46E506142530AAB300666540 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E505E62530AAB300666540 /* FormView.swift */; };
-		46E506172530AAB300666540 /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E505EA2530AAB300666540 /* OrderViewModel.swift */; };
 		46E506182530AAB300666540 /* CancelModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E505ED2530AAB300666540 /* CancelModalView.swift */; };
 		46E506192530AAB300666540 /* CancelOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E505EE2530AAB300666540 /* CancelOrderView.swift */; };
 		46E5061A2530AAB300666540 /* BottomOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E505F02530AAB300666540 /* BottomOrderView.swift */; };
@@ -41,7 +41,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		46BE85822532132A003FBF44 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		4659E1EF2587D54D00D2E2F0 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		4659E1F02587D54D00D2E2F0 /* OrderViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
 		46E505C32530AA4100666540 /* TeslaOrderForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeslaOrderForm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46E505CD2530AA4200666540 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		46E505CF2530AA4200666540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,7 +54,6 @@
 		46E505E42530AAB300666540 /* CarInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarInfoView.swift; sourceTree = "<group>"; };
 		46E505E52530AAB300666540 /* CarDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarDetailView.swift; sourceTree = "<group>"; };
 		46E505E62530AAB300666540 /* FormView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
-		46E505EA2530AAB300666540 /* OrderViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
 		46E505ED2530AAB300666540 /* CancelModalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelModalView.swift; sourceTree = "<group>"; };
 		46E505EE2530AAB300666540 /* CancelOrderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelOrderView.swift; sourceTree = "<group>"; };
 		46E505F02530AAB300666540 /* BottomOrderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomOrderView.swift; sourceTree = "<group>"; };
@@ -87,6 +87,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4659E1EE2587D54D00D2E2F0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4659E1EF2587D54D00D2E2F0 /* API.swift */,
+				4659E1F02587D54D00D2E2F0 /* OrderViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		46E505BA2530AA4100666540 = {
 			isa = PBXGroup;
 			children = (
@@ -109,7 +118,7 @@
 				46E505F42530AAB300666540 /* Utilities */,
 				46E505D72530AAB300666540 /* Application */,
 				46E505DD2530AAB300666540 /* Supporting Views */,
-				46E505E82530AAB300666540 /* View Model */,
+				4659E1EE2587D54D00D2E2F0 /* Models */,
 				46E505EB2530AAB300666540 /* Views */,
 				46E505CF2530AA4200666540 /* Info.plist */,
 				46E505CC2530AA4200666540 /* Preview Content */,
@@ -163,15 +172,6 @@
 			path = "Car Info";
 			sourceTree = "<group>";
 		};
-		46E505E82530AAB300666540 /* View Model */ = {
-			isa = PBXGroup;
-			children = (
-				46E505EA2530AAB300666540 /* OrderViewModel.swift */,
-				46BE85822532132A003FBF44 /* API.swift */,
-			);
-			path = "View Model";
-			sourceTree = "<group>";
-		};
 		46E505EB2530AAB300666540 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,7 +206,6 @@
 			children = (
 				46E505F92530AAB300666540 /* _theming  */,
 				46E505F52530AAB300666540 /* Button Styles */,
-				46E505F72530AAB300666540 /* Extensions */,
 				46E505F82530AAB300666540 /* RoundedView.swift */,
 				46E506092530AAB300666540 /* View+Extension.swift */,
 				46E506052530AAB300666540 /* View Modifier */,
@@ -221,13 +220,6 @@
 				46E505F62530AAB300666540 /* TeslaButtonStyle.swift */,
 			);
 			path = "Button Styles";
-			sourceTree = "<group>";
-		};
-		46E505F72530AAB300666540 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Extensions;
 			sourceTree = "<group>";
 		};
 		46E505F92530AAB300666540 /* _theming  */ = {
@@ -345,6 +337,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4659E1F12587D54D00D2E2F0 /* API.swift in Sources */,
 				46E5062B2530AAB300666540 /* VibrancyBackground.swift in Sources */,
 				46E5061E2530AAB300666540 /* TeslaButtonStyle.swift in Sources */,
 				46E506282530AAB300666540 /* Palette+Color.swift in Sources */,
@@ -352,7 +345,6 @@
 				46E5061B2530AAB300666540 /* CompleteOrderView.swift in Sources */,
 				46E506292530AAB300666540 /* ScaledFont.swift in Sources */,
 				46E506102530AAB300666540 /* CarInfoDetailView.swift in Sources */,
-				46E506172530AAB300666540 /* OrderViewModel.swift in Sources */,
 				46E5062A2530AAB300666540 /* NavigationBarView.swift in Sources */,
 				46E506212530AAB300666540 /* CustomTextStyle.swift in Sources */,
 				46E506132530AAB300666540 /* CarDetailView.swift in Sources */,
@@ -360,7 +352,7 @@
 				46E5061F2530AAB300666540 /* RoundedView.swift in Sources */,
 				46E5061A2530AAB300666540 /* BottomOrderView.swift in Sources */,
 				46E5062C2530AAB300666540 /* View+Extension.swift in Sources */,
-				46BE85832532132A003FBF44 /* API.swift in Sources */,
+				4659E1F22587D54D00D2E2F0 /* OrderViewModel.swift in Sources */,
 				46E506192530AAB300666540 /* CancelOrderView.swift in Sources */,
 				46E506112530AAB300666540 /* CarInfoPhotosView.swift in Sources */,
 				46E5061C2530AAB300666540 /* TopOrderView.swift in Sources */,

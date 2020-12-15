@@ -50,6 +50,8 @@
 		46BE86482532D54C003FBF44 /* Card+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BE861B2532D54B003FBF44 /* Card+Extension.swift */; };
 		46BE86492532D54C003FBF44 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BE861C2532D54B003FBF44 /* CoreDataManager.swift */; };
 		46BE864A2532D54C003FBF44 /* MockAccountPreviewService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BE861D2532D54B003FBF44 /* MockAccountPreviewService.swift */; };
+		46FA76A4258916A700815667 /* CreditCardStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FA76A2258916A700815667 /* CreditCardStyle.swift */; };
+		46FA76A5258916A700815667 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FA76A3258916A700815667 /* RoundedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -98,6 +100,8 @@
 		46BE861B2532D54B003FBF44 /* Card+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Card+Extension.swift"; sourceTree = "<group>"; };
 		46BE861C2532D54B003FBF44 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		46BE861D2532D54B003FBF44 /* MockAccountPreviewService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockAccountPreviewService.swift; sourceTree = "<group>"; };
+		46FA76A2258916A700815667 /* CreditCardStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditCardStyle.swift; sourceTree = "<group>"; };
+		46FA76A3258916A700815667 /* RoundedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +136,7 @@
 			children = (
 				46BE85E62532D54B003FBF44 /* Application */,
 				46BE86192532D54B003FBF44 /* Model */,
+				46FA76A1258916A700815667 /* Modifiers */,
 				46BE86082532D54B003FBF44 /* Supporting Views */,
 				46BE85ED2532D54B003FBF44 /* Utilities */,
 				46BE86012532D54B003FBF44 /* View Model */,
@@ -274,6 +279,15 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		46FA76A1258916A700815667 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				46FA76A2258916A700815667 /* CreditCardStyle.swift */,
+				46FA76A3258916A700815667 /* RoundedView.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -370,6 +384,8 @@
 				46BE86282532D54C003FBF44 /* LengthFormatters.swift in Sources */,
 				46BE86242532D54C003FBF44 /* BoolOptional+Extension.swift in Sources */,
 				46BE86342532D54C003FBF44 /* ScaledFont.swift in Sources */,
+				46FA76A5258916A700815667 /* RoundedView.swift in Sources */,
+				46FA76A4258916A700815667 /* CreditCardStyle.swift in Sources */,
 				46BE862C2532D54C003FBF44 /* CustomTextStyle.swift in Sources */,
 				46BE86432532D54C003FBF44 /* AccountTypeView.swift in Sources */,
 				46BE86442532D54C003FBF44 /* CardListRow.swift in Sources */,

@@ -43,7 +43,6 @@
 		46BE863C2532D54C003FBF44 /* ColorButtonMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BE860C2532D54B003FBF44 /* ColorButtonMenu.swift */; };
 		46BE863D2532D54C003FBF44 /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BE860D2532D54B003FBF44 /* ColorView.swift */; };
 		46BE863E2532D54C003FBF44 /* CreditCardTypeMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BE860E2532D54B003FBF44 /* CreditCardTypeMenuView.swift */; };
-		46BE863F2532D54C003FBF44 /* FormTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BE860F2532D54B003FBF44 /* FormTextField.swift */; };
 		46BE86402532D54C003FBF44 /* AccountSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BE86112532D54B003FBF44 /* AccountSummaryView.swift */; };
 		46BE86412532D54C003FBF44 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BE86122532D54B003FBF44 /* HomeHeaderView.swift */; };
 		46BE86422532D54C003FBF44 /* HomeSubmenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BE86132532D54B003FBF44 /* HomeSubmenuView.swift */; };
@@ -95,7 +94,6 @@
 		46BE860C2532D54B003FBF44 /* ColorButtonMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorButtonMenu.swift; sourceTree = "<group>"; };
 		46BE860D2532D54B003FBF44 /* ColorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
 		46BE860E2532D54B003FBF44 /* CreditCardTypeMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditCardTypeMenuView.swift; sourceTree = "<group>"; };
-		46BE860F2532D54B003FBF44 /* FormTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormTextField.swift; sourceTree = "<group>"; };
 		46BE86112532D54B003FBF44 /* AccountSummaryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountSummaryView.swift; sourceTree = "<group>"; };
 		46BE86122532D54B003FBF44 /* HomeHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
 		46BE86132532D54B003FBF44 /* HomeSubmenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeSubmenuView.swift; sourceTree = "<group>"; };
@@ -255,7 +253,6 @@
 				46BE860C2532D54B003FBF44 /* ColorButtonMenu.swift */,
 				46BE860D2532D54B003FBF44 /* ColorView.swift */,
 				46BE860E2532D54B003FBF44 /* CreditCardTypeMenuView.swift */,
-				46BE860F2532D54B003FBF44 /* FormTextField.swift */,
 				468278162548CC3A009AE15C /* FormNameView.swift */,
 			);
 			path = "Create Account";
@@ -403,7 +400,6 @@
 				46BE86482532D54C003FBF44 /* Card+Extension.swift in Sources */,
 				46BE86382532D54C003FBF44 /* ContentView.swift in Sources */,
 				46BE86202532D54C003FBF44 /* FinancialApp.swift in Sources */,
-				46BE863F2532D54C003FBF44 /* FormTextField.swift in Sources */,
 				46BE86232532D54C003FBF44 /* RoundedView.swift in Sources */,
 				46BE863E2532D54C003FBF44 /* CreditCardTypeMenuView.swift in Sources */,
 				46BE86492532D54C003FBF44 /* CoreDataManager.swift in Sources */,

@@ -26,11 +26,11 @@ struct AccountFormView: View {
     var body: some View {
         List { // Step 1
             Section { // Step 2
-                FormTextField(text: firstName)
-                FormTextField(text: lastName)
+                FirstNameView()
+                LastNameView()
                 
                 if type == "creditcard" { // Step 3
-                    FormTextField(text: creditLimit)
+                    CardLimitView()
                 }
             }
             .listRowBackground(Color.baseWhite)

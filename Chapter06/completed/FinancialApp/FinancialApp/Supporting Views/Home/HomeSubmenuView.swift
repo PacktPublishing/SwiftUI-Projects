@@ -22,6 +22,7 @@ struct HomeSubmenuView: View {
             Divider().padding(.bottom, 10)
 
             HStack {
+                Spacer()
                 Button(action: {
 
                 }) {
@@ -33,7 +34,7 @@ struct HomeSubmenuView: View {
                     .background(Color.white)
                     .cornerRadius(10)
                 }
-
+                Spacer()
                 Button(action: {
 
                 }) {
@@ -45,7 +46,7 @@ struct HomeSubmenuView: View {
                     .background(Color.white)
                     .cornerRadius(10)
                 }
-
+                Spacer()
                 Button(action: {
 
                 }) {
@@ -57,7 +58,7 @@ struct HomeSubmenuView: View {
                     .background(Color.white)
                     .cornerRadius(10)
                 }
-
+                Spacer()
                 Button(action: {
                 }) {
                     VStack {

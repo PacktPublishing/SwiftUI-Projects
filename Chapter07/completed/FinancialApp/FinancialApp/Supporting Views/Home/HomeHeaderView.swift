@@ -21,6 +21,7 @@ struct HomeHeaderView: View {
             Spacer()
             Image("avatar")
         }.padding(.horizontal, 20)
+        .padding(.bottom, 15)
     }
 }
 

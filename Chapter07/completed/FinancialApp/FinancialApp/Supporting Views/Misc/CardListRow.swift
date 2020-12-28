@@ -30,6 +30,7 @@ struct CardListRow: View {
                         Spacer()
                         Image(account.accountCard.logo.value)
                     }
+                    
                     HStack {
                         HStack {
                             Text("****").customFont(.custom(.black, 17))
@@ -40,7 +41,9 @@ struct CardListRow: View {
                         }
 
                         Spacer()
-                    }.padding(.top, 15)
+                    }
+                    .padding(.top, 15)
+                    
                     Spacer()
                     HStack {
                         VStack(alignment: .leading) {
@@ -66,7 +69,7 @@ struct CardListRow: View {
                             Text(account.accountCard.cvv.value).customFont(.custom(.black, 16))
                         }
                     }
-                }.padding(10)
+                }.padding(20)
             }
             .frame(height: 160)
             .foregroundColor(.baseWhite)

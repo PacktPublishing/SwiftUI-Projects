@@ -17,12 +17,12 @@ struct AccountHomeView: View {
                 .edgesIgnoringSafeArea(.all)
             
             ScrollView {
-VStack {
-    HomeHeaderView(account: account)
-    CardListRow(account: account)
-    HomeSubmenuView()
-    AccountSummaryView(account: account)
-}
+                VStack {
+                    HomeHeaderView(account: account)
+                    CardListRow(account: account)
+                    HomeSubmenuView().padding(.bottom, 15)
+                    AccountSummaryView(account: account)
+                }
             }
         }
         

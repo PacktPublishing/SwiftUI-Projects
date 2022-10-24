@@ -59,3 +59,7 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 ## Get to Know the Author
 **Craig Clayton**
 is a self-taught, senior iOS engineer at Fan Reach, specializing in building mobile experiences for NBA, NHL, CHL and NFL teams. He also volunteered as the organizer of the Suncoast iOS meetup group in the Tampa/St. Petersburg area for 3 years, preparing presentations and hands-on talks for this group and other groups in the community. He has is launching a new site called Design To SwiftUI online, which specializes in teaching developers and designers how to build iOS apps from design to SwiftUI video courses.
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781839214660">https://packt.link/free-ebook/9781839214660 </a> </p>
